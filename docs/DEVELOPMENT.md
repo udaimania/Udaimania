@@ -36,6 +36,12 @@ the script to update the shortcut's target. Xcode may use its own Derived Data
 location; Command-R launches the app it just built. Do not assume that an Xcode
 build updates the shortcut unless its Derived Data setting matches this path.
 
+For script builds, fully quit the running app using **Quit** in Udaimania's
+menu-bar icon before opening the rebuilt shortcut. The inherited **Command-Q**
+and application-menu Quit behavior only hides the window and leaves the old
+process running. Reopening it can therefore show the previous build. Xcode's
+Run workflow manages its own launched process.
+
 ## Identity and compatibility
 
 | Resource | Development build | Future release configuration |

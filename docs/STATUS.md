@@ -26,12 +26,13 @@ names use Udaimania. Compatibility IDs preserve existing development data and
 credentials; see [NAMING.md](NAMING.md). Upstream license attribution is retained.
 The original updater feed and signing team are not used by this fork.
 
-The work is organized into five commits: Mac development isolation, Figma
+The work is committed in logical groups: Mac development isolation, Figma
 handoff, the paused phone prototype, Udaimania naming/layout cleanup, and
 repository instructions/status. GitHub CLI is authenticated as `udaimania`, with
 its credential in the Mac keychain; Git uses that connection for `origin`.
 Commits use the account's GitHub noreply address. Check `git status -sb` for
-the current branch synchronization state.
+the current branch synchronization state. The branch was pushed to GitHub and
+its remote commit was verified against the local checkout.
 
 ## Design handoff
 
@@ -60,7 +61,9 @@ shared schemes now run tests serially. All 230 source asset hashes match the
 Figma baseline; shell syntax, JSON/localization files, and Git whitespace checks
 passed. The bundled `udaimania --help` command works, and the built app has no
 upstream update feed. The running app retained the existing timeline and displayed
-the new Udaimania GitHub support screen. The final launch/onboarding screens use
+the final Udaimania GitHub support screen after a full restart. Older background
+Mac app instances were closed; phone development remained paused. The final
+launch/onboarding screens use
 native Udaimania text instead of upstream branded video.
 
 Begin the next Mac design change from a specific Figma frame. Read
