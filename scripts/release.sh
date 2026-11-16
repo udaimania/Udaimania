@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# One-button release script for Dayflow.
+# One-button release script for Udaimania.
 # - Bumps version (minor by default; --major to bump major)
 #   - Updates Xcode target MARKETING_VERSION and CURRENT_PROJECT_VERSION
 #   - Keeps Info.plist values in sync
@@ -23,9 +23,9 @@ set -euo pipefail
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 REPO_ROOT=$(cd "$SCRIPT_DIR/.." && pwd)
 
-PLIST=${PLIST:-"$REPO_ROOT/Dayflow/Dayflow/Info.plist"}
-APP_NAME=${APP_NAME:-Dayflow}
-SCHEME=${SCHEME:-Dayflow}
+PLIST=${PLIST:-"$REPO_ROOT/macos/Udaimania/Info.plist"}
+APP_NAME=${APP_NAME:-Udaimania}
+SCHEME=${SCHEME:-Udaimania}
 CONFIG=${CONFIG:-Release}
 # Optional: override Keychain account name for sign_update; defaults to "ed25519"
 SIGN_ACCOUNT=${SIGN_ACCOUNT:-}
@@ -62,7 +62,7 @@ fi
 
 if [[ ! -f "$PLIST" ]]; then err "Info.plist not found at $PLIST"; fi
 
-PBP="$REPO_ROOT/Dayflow/Udaimania.xcodeproj/project.pbxproj"
+PBP="$REPO_ROOT/macos/Udaimania.xcodeproj/project.pbxproj"
 
 get_plist() { /usr/libexec/PlistBuddy -c "Print :$1" "$PLIST" 2>/dev/null || true; }
 set_plist() {
@@ -125,7 +125,7 @@ echo "[1/8] Bumping versions in project and Info.plist…"
 # First, update the Xcode project so UI reflects the correct version.
 if [[ -f "$PBP" ]]; then
   if xcrun -f agvtool >/dev/null 2>&1; then
-    ( cd "$REPO_ROOT/Dayflow" && \
+    ( cd "$REPO_ROOT/Udaimania" && \
       xcrun agvtool new-marketing-version "$NEW_SHORT" >/dev/null || true; \
       xcrun agvtool new-version -all "$NEW_BUILD" >/dev/null || true )
   fi
@@ -212,6 +212,6 @@ git push origin HEAD
 git push origin "$TAG" --force
 
 echo "[8/8] Post-release sanity check…"
-echo "Feed URL should be reachable at: https://dayflow.so/appcast.xml"
+echo "Configure and verify your Udaimania update feed before enabling automatic updates."
 
 echo "[8/8] Done. Version $NEW_SHORT ($NEW_BUILD) released."

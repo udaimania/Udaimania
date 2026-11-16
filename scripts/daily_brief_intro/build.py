@@ -7,7 +7,7 @@ inlines the CSS, the script, the fonts and every asset as data: URLs instead.
 
     python3 scripts/daily_brief_intro/build.py
 
-Edit the files in src/, then run this. Output: Dayflow/Dayflow/Resources/DailyBriefIntro.html
+Edit the files in src/, then run this. Output: macos/Udaimania/Resources/DailyBriefIntro.html
 """
 import base64
 import mimetypes
@@ -17,8 +17,8 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 SRC = HERE / "src"
 REPO = HERE.parent.parent
-FONTS = REPO / "Dayflow/Dayflow/Fonts"
-OUT = REPO / "Dayflow/Dayflow/Resources/DailyBriefIntro.html"
+FONTS = REPO / "macos/Udaimania/Fonts"
+OUT = REPO / "macos/Udaimania/Resources/DailyBriefIntro.html"
 
 TYPES = {".svg": "image/svg+xml", ".png": "image/png", ".webp": "image/webp",
          ".jpg": "image/jpeg", ".ttf": "font/ttf"}

@@ -1,0 +1,6 @@
+UDAIMANIA_URL_SCHEME = udaimania
+UDAIMANIA_BACKEND_URL =
+// PostHog project token. Empty keeps analytics and the support chat off in local builds.
+POSTHOG_API_KEY =
+
+#include? "LocalSecrets.xcconfig"

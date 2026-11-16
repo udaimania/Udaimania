@@ -6,8 +6,8 @@ set -euo pipefail
 #
 # Usage:
 #   scripts/update_appcast.sh \
-#     --dmg Dayflow.dmg \
-#     --url https://github.com/you/repo/releases/download/v1.2.3/Dayflow.dmg \
+#     --dmg Udaimania.dmg \
+#     --url https://github.com/you/repo/releases/download/v1.2.3/Udaimania.dmg \
 #     --short 1.2.3 \
 #     --build 123 \
 #     --signature <BASE64_EDDSA_SIG> \
@@ -51,7 +51,7 @@ fi
 LEN=$(stat -f%z "$DMG" 2>/dev/null || wc -c <"$DMG")
 DATE_RFC=$(LC_ALL=C date -u "+%a, %d %b %Y %H:%M:%S %z")
 
-TITLE="Dayflow Updates"
+TITLE="Udaimania Updates"
 LANG="en"
 
 mkdir -p "$(dirname "$OUT")"

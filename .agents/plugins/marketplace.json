@@ -1,10 +1,10 @@
 {
-  "name": "dayflow",
-  "interface": { "displayName": "Dayflow" },
+  "name": "udaimania",
+  "interface": { "displayName": "Udaimania" },
   "plugins": [
     {
-      "name": "dayflow",
-      "source": { "source": "local", "path": "./plugins/dayflow" },
+      "name": "udaimania",
+      "source": { "source": "local", "path": "./plugins/udaimania" },
       "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
       "category": "Productivity"
     }

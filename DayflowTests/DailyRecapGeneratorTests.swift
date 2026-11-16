@@ -1,6 +1,6 @@
 import XCTest
 
-@testable import Dayflow
+@testable import Udaimania
 
 final class DailyRecapGeneratorTests: XCTestCase {
   override func tearDown() {
@@ -29,7 +29,7 @@ final class DailyRecapGeneratorTests: XCTestCase {
   }
 
   func testDailyGenerationRequestEncodesPreferredOutputLanguage() throws {
-    let request = DayflowDailyGenerationRequest(
+    let request = UdaimaniaDailyGenerationRequest(
       day: "2026-04-08",
       cardsText: "Cards",
       observationsText: "Observations",

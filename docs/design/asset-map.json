@@ -3,7 +3,7 @@
   "assets": [
     {
       "assetName": "AccountCardGlowTall",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountCardGlowTall.imageset/AccountCardGlowTall.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountCardGlowTall.imageset/AccountCardGlowTall.png",
       "filename": "AccountCardGlowTall.png",
       "format": "image/png",
       "group": "artwork",
@@ -15,7 +15,7 @@
     },
     {
       "assetName": "AccountCardGlowTallWarm",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountCardGlowTallWarm.imageset/AccountCardGlowTallWarm.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountCardGlowTallWarm.imageset/AccountCardGlowTallWarm.png",
       "filename": "AccountCardGlowTallWarm.png",
       "format": "image/png",
       "group": "artwork",
@@ -27,7 +27,7 @@
     },
     {
       "assetName": "AccountCardGlowWide",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountCardGlowWide.imageset/AccountCardGlowWide.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountCardGlowWide.imageset/AccountCardGlowWide.png",
       "filename": "AccountCardGlowWide.png",
       "format": "image/png",
       "group": "artwork",
@@ -39,7 +39,7 @@
     },
     {
       "assetName": "AccountCardGlowWideSoft",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountCardGlowWideSoft.imageset/AccountCardGlowWideSoft.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountCardGlowWideSoft.imageset/AccountCardGlowWideSoft.png",
       "filename": "AccountCardGlowWideSoft.png",
       "format": "image/png",
       "group": "artwork",
@@ -51,7 +51,7 @@
     },
     {
       "assetName": "AppIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AppIcon.appiconset/Export me (512px) (7).png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AppIcon.appiconset/Export me (512px) (7).png",
       "filename": "Export me (512px) (7).png",
       "format": "image/png",
       "group": "logos",
@@ -64,7 +64,7 @@
     },
     {
       "assetName": "DailyBriefNoticeCard",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DailyBriefNoticeCard.imageset/DailyBriefNoticeCard@2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DailyBriefNoticeCard.imageset/DailyBriefNoticeCard@2x.png",
       "filename": "DailyBriefNoticeCard@2x.png",
       "format": "image/png",
       "group": "artwork",
@@ -76,7 +76,7 @@
     },
     {
       "assetName": "DailyBriefPainting1",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DailyBriefPainting1.imageset/DailyBriefPainting1.jpg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DailyBriefPainting1.imageset/DailyBriefPainting1.jpg",
       "filename": "DailyBriefPainting1.jpg",
       "format": "image/jpeg",
       "group": "artwork",
@@ -88,7 +88,7 @@
     },
     {
       "assetName": "DarkWindowBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DarkWindowBackground.imageset/dark-window@2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DarkWindowBackground.imageset/dark-window@2x.png",
       "filename": "dark-window@2x.png",
       "format": "image/png",
       "group": "artwork",
@@ -99,8 +99,8 @@
       "figmaPageName": "13 · Assets / Artwork & backgrounds"
     },
     {
-      "assetName": "DayflowLaunch",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DayflowLaunch.imageset/Frame 2147227827.png",
+      "assetName": "UdaimaniaLaunch",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/UdaimaniaLaunch.imageset/Frame 2147227827.png",
       "filename": "Frame 2147227827.png",
       "format": "image/png",
       "group": "artwork",
@@ -111,9 +111,9 @@
       "figmaPageName": "13 · Assets / Artwork & backgrounds"
     },
     {
-      "assetName": "DayflowLogo",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DayflowLogo.imageset/DayflowLogo.png",
-      "filename": "DayflowLogo.png",
+      "assetName": "UdaimaniaLogo",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/UdaimaniaLogo.imageset/UdaimaniaLogo.png",
+      "filename": "UdaimaniaLogo.png",
       "format": "image/png",
       "group": "logos",
       "figmaNodeId": "4:10",
@@ -124,8 +124,8 @@
       "subgroup": "Product identity"
     },
     {
-      "assetName": "DayflowLogoMainApp",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DayflowLogoMainApp.imageset/in-app-logo2.png",
+      "assetName": "UdaimaniaLogoMainApp",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/UdaimaniaLogoMainApp.imageset/in-app-logo2.png",
       "filename": "in-app-logo2.png",
       "format": "image/png",
       "group": "logos",
@@ -138,7 +138,7 @@
     },
     {
       "assetName": "DocketPromptFadeOpen",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPromptFadeOpen.imageset/prompt-fade-open.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPromptFadeOpen.imageset/prompt-fade-open.png",
       "filename": "prompt-fade-open.png",
       "format": "image/png",
       "group": "artwork",
@@ -149,8 +149,8 @@
       "figmaPageName": "13 · Assets / Artwork & backgrounds"
     },
     {
-      "assetName": "DayflowFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/DayflowFavicon.imageset/686526ff709ed1c0181d0fed_favicon.png",
+      "assetName": "UdaimaniaFavicon",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/UdaimaniaFavicon.imageset/686526ff709ed1c0181d0fed_favicon.png",
       "filename": "686526ff709ed1c0181d0fed_favicon.png",
       "format": "image/png",
       "group": "logos",
@@ -163,7 +163,7 @@
     },
     {
       "assetName": "FlowEarlyBirdBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowEarlyBirdBackground.imageset/flow-early-bird-background.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowEarlyBirdBackground.imageset/flow-early-bird-background.png",
       "filename": "flow-early-bird-background.png",
       "format": "image/png",
       "group": "artwork",
@@ -175,7 +175,7 @@
     },
     {
       "assetName": "FlowMenuEnvironment",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuEnvironment.imageset/flow-menu-environment.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuEnvironment.imageset/flow-menu-environment.png",
       "filename": "flow-menu-environment.png",
       "format": "image/png",
       "group": "artwork",
@@ -187,7 +187,7 @@
     },
     {
       "assetName": "FlowWaitlistBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowWaitlistBackground.imageset/flow-waitlist-background.jpg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowWaitlistBackground.imageset/flow-waitlist-background.jpg",
       "filename": "flow-waitlist-background.jpg",
       "format": "image/jpeg",
       "group": "artwork",
@@ -199,7 +199,7 @@
     },
     {
       "assetName": "FlowWaitlistBubble",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowWaitlistBubble.imageset/flow-waitlist-bubble.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowWaitlistBubble.imageset/flow-waitlist-bubble.png",
       "filename": "flow-waitlist-bubble.png",
       "format": "image/png",
       "group": "artwork",
@@ -211,7 +211,7 @@
     },
     {
       "assetName": "FlowWaitlistBubble",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowWaitlistBubble.imageset/flow-waitlist-bubble@2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowWaitlistBubble.imageset/flow-waitlist-bubble@2x.png",
       "filename": "flow-waitlist-bubble@2x.png",
       "format": "image/png",
       "group": "artwork",
@@ -223,7 +223,7 @@
     },
     {
       "assetName": "FlowWaitlistBubble",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowWaitlistBubble.imageset/flow-waitlist-bubble@3x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowWaitlistBubble.imageset/flow-waitlist-bubble@3x.png",
       "filename": "flow-waitlist-bubble@3x.png",
       "format": "image/png",
       "group": "artwork",
@@ -235,7 +235,7 @@
     },
     {
       "assetName": "LightWindowBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/LightWindowBackground.imageset/light-window@2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/LightWindowBackground.imageset/light-window@2x.png",
       "filename": "light-window@2x.png",
       "format": "image/png",
       "group": "artwork",
@@ -247,7 +247,7 @@
     },
     {
       "assetName": "MainUIBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/MainUIBackground.imageset/Content Area.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/MainUIBackground.imageset/Content Area.png",
       "filename": "Content Area.png",
       "format": "image/png",
       "group": "artwork",
@@ -259,7 +259,7 @@
     },
     {
       "assetName": "OnboardingBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingBackground.imageset/Fades out_ (1).png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingBackground.imageset/Fades out_ (1).png",
       "filename": "Fades out_ (1).png",
       "format": "image/png",
       "group": "artwork",
@@ -271,7 +271,7 @@
     },
     {
       "assetName": "OnboardingBackgroundv2",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingBackgroundv2.imageset/Sign up_ (2).png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingBackgroundv2.imageset/Sign up_ (2).png",
       "filename": "Sign up_ (2).png",
       "format": "image/png",
       "group": "artwork",
@@ -283,7 +283,7 @@
     },
     {
       "assetName": "OnboardingClouds",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingClouds.imageset/clouds@2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingClouds.imageset/clouds@2x.png",
       "filename": "clouds@2x.png",
       "format": "image/png",
       "group": "artwork",
@@ -295,7 +295,7 @@
     },
     {
       "assetName": "OnboardingHow",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingHow.imageset/Security.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingHow.imageset/Security.png",
       "filename": "Security.png",
       "format": "image/png",
       "group": "artwork",
@@ -307,7 +307,7 @@
     },
     {
       "assetName": "OnboardingSecurity",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingSecurity.imageset/Security (1).png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingSecurity.imageset/Security (1).png",
       "filename": "Security (1).png",
       "format": "image/png",
       "group": "artwork",
@@ -319,7 +319,7 @@
     },
     {
       "assetName": "OnboardingSplash",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingSplash.imageset/splash@2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingSplash.imageset/splash@2x.png",
       "filename": "splash@2x.png",
       "format": "image/png",
       "group": "artwork",
@@ -331,7 +331,7 @@
     },
     {
       "assetName": "ReferralCardBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/ReferralCardBackground.imageset/referral-card-background.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/ReferralCardBackground.imageset/referral-card-background.png",
       "filename": "referral-card-background.png",
       "format": "image/png",
       "group": "artwork",
@@ -343,7 +343,7 @@
     },
     {
       "assetName": "AccountCheck",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountCheck.imageset/check.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountCheck.imageset/check.svg",
       "filename": "check.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -355,7 +355,7 @@
     },
     {
       "assetName": "AccountCreditCard",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountCreditCard.imageset/card.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountCreditCard.imageset/card.svg",
       "filename": "card.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -367,7 +367,7 @@
     },
     {
       "assetName": "AccountCross",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountCross.imageset/close.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountCross.imageset/close.svg",
       "filename": "close.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -379,7 +379,7 @@
     },
     {
       "assetName": "AccountLogOut",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountLogOut.imageset/logout.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountLogOut.imageset/logout.svg",
       "filename": "logout.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -391,7 +391,7 @@
     },
     {
       "assetName": "AccountUserCircle",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AccountUserCircle.imageset/user.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AccountUserCircle.imageset/user.svg",
       "filename": "user.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -403,7 +403,7 @@
     },
     {
       "assetName": "AgentsIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AgentsIcon.imageset/AgentsIcon.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AgentsIcon.imageset/AgentsIcon.svg",
       "filename": "AgentsIcon.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -415,7 +415,7 @@
     },
     {
       "assetName": "CalendarIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CalendarIcon.imageset/CalendarIcon.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CalendarIcon.imageset/CalendarIcon.png",
       "filename": "CalendarIcon.png",
       "format": "image/png",
       "group": "ui",
@@ -427,7 +427,7 @@
     },
     {
       "assetName": "CalendarLeftButton",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CalendarLeftButton.imageset/CalendarLeftButton.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CalendarLeftButton.imageset/CalendarLeftButton.png",
       "filename": "CalendarLeftButton.png",
       "format": "image/png",
       "group": "ui",
@@ -439,7 +439,7 @@
     },
     {
       "assetName": "CalendarRightButton",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CalendarRightButton.imageset/CalendarRightButton.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CalendarRightButton.imageset/CalendarRightButton.png",
       "filename": "CalendarRightButton.png",
       "format": "image/png",
       "group": "ui",
@@ -451,7 +451,7 @@
     },
     {
       "assetName": "CategoriesCheckmark",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategoriesCheckmark.imageset/CategoriesCheckmark.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategoriesCheckmark.imageset/CategoriesCheckmark.png",
       "filename": "CategoriesCheckmark.png",
       "format": "image/png",
       "group": "ui",
@@ -463,7 +463,7 @@
     },
     {
       "assetName": "CategoriesDelete",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategoriesDelete.imageset/CategoriesDelete.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategoriesDelete.imageset/CategoriesDelete.png",
       "filename": "CategoriesDelete.png",
       "format": "image/png",
       "group": "ui",
@@ -475,7 +475,7 @@
     },
     {
       "assetName": "CategoriesEdit",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategoriesEdit.imageset/CategoriesEdit.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategoriesEdit.imageset/CategoriesEdit.svg",
       "filename": "CategoriesEdit.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -487,7 +487,7 @@
     },
     {
       "assetName": "CategoriesOrganize",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategoriesOrganize.imageset/Organize.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategoriesOrganize.imageset/Organize.png",
       "filename": "Organize.png",
       "format": "image/png",
       "group": "ui",
@@ -499,7 +499,7 @@
     },
     {
       "assetName": "CategoriesTextSelect",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategoriesTextSelect.imageset/TextSelect.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategoriesTextSelect.imageset/TextSelect.png",
       "filename": "TextSelect.png",
       "format": "image/png",
       "group": "ui",
@@ -511,7 +511,7 @@
     },
     {
       "assetName": "CategoryEditButton",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategoryEditButton.imageset/Edit Pencil.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategoryEditButton.imageset/Edit Pencil.png",
       "filename": "Edit Pencil.png",
       "format": "image/png",
       "group": "ui",
@@ -523,7 +523,7 @@
     },
     {
       "assetName": "CategorySwapButton",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategorySwapButton.imageset/CategorySwapButton.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategorySwapButton.imageset/CategorySwapButton.png",
       "filename": "CategorySwapButton.png",
       "format": "image/png",
       "group": "ui",
@@ -535,7 +535,7 @@
     },
     {
       "assetName": "ChatGPTLogo",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/ChatGPTLogo.imageset/ChatGPT.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/ChatGPTLogo.imageset/ChatGPT.svg",
       "filename": "ChatGPT.svg",
       "format": "image/svg+xml",
       "group": "logos",
@@ -548,7 +548,7 @@
     },
     {
       "assetName": "ChatIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/ChatIcon.imageset/Chat.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/ChatIcon.imageset/Chat.svg",
       "filename": "Chat.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -560,7 +560,7 @@
     },
     {
       "assetName": "ClaudeLogo",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/ClaudeLogo.imageset/Image.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/ClaudeLogo.imageset/Image.png",
       "filename": "Image.png",
       "format": "image/png",
       "group": "logos",
@@ -573,7 +573,7 @@
     },
     {
       "assetName": "Copy",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Copy.imageset/Content copy.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Copy.imageset/Content copy.svg",
       "filename": "Content copy.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -585,7 +585,7 @@
     },
     {
       "assetName": "DailyIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DailyIcon.imageset/Daily view.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DailyIcon.imageset/Daily view.svg",
       "filename": "Daily view.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -597,7 +597,7 @@
     },
     {
       "assetName": "DashboardIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DashboardIcon.imageset/DashboardIcon.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DashboardIcon.imageset/DashboardIcon.png",
       "filename": "DashboardIcon.png",
       "format": "image/png",
       "group": "ui",
@@ -609,7 +609,7 @@
     },
     {
       "assetName": "DiscordGlyph",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DiscordGlyph.imageset/discord.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DiscordGlyph.imageset/discord.png",
       "filename": "discord.png",
       "format": "image/png",
       "group": "logos",
@@ -622,7 +622,7 @@
     },
     {
       "assetName": "DiscordGlyph",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DiscordGlyph.imageset/discord@2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DiscordGlyph.imageset/discord@2x.png",
       "filename": "discord@2x.png",
       "format": "image/png",
       "group": "logos",
@@ -635,7 +635,7 @@
     },
     {
       "assetName": "DiscordGlyph",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DiscordGlyph.imageset/discord@3x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DiscordGlyph.imageset/discord@3x.png",
       "filename": "discord@3x.png",
       "format": "image/png",
       "group": "logos",
@@ -648,7 +648,7 @@
     },
     {
       "assetName": "DistractionSummaryIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DistractionSummaryIcon.imageset/distraction-icon.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DistractionSummaryIcon.imageset/distraction-icon.png",
       "filename": "distraction-icon.png",
       "format": "image/png",
       "group": "ui",
@@ -660,7 +660,7 @@
     },
     {
       "assetName": "DocketAgentChatGPT",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketAgentChatGPT.imageset/agent-chatgpt.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketAgentChatGPT.imageset/agent-chatgpt.png",
       "filename": "agent-chatgpt.png",
       "format": "image/png",
       "group": "logos",
@@ -673,7 +673,7 @@
     },
     {
       "assetName": "DocketAgentClaude",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketAgentClaude.imageset/agent-claude-16.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketAgentClaude.imageset/agent-claude-16.png",
       "filename": "agent-claude-16.png",
       "format": "image/png",
       "group": "logos",
@@ -686,7 +686,7 @@
     },
     {
       "assetName": "DocketChevron12",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketChevron12.imageset/chevron-right.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketChevron12.imageset/chevron-right.svg",
       "filename": "chevron-right.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -698,7 +698,7 @@
     },
     {
       "assetName": "DocketChevron16",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketChevron16.imageset/chevron-right-16.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketChevron16.imageset/chevron-right-16.svg",
       "filename": "chevron-right-16.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -710,7 +710,7 @@
     },
     {
       "assetName": "DocketChevronLabel",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketChevronLabel.imageset/chevron-right-label.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketChevronLabel.imageset/chevron-right-label.svg",
       "filename": "chevron-right-label.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -722,7 +722,7 @@
     },
     {
       "assetName": "DocketCopy16",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketCopy16.imageset/copy-16.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketCopy16.imageset/copy-16.svg",
       "filename": "copy-16.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -734,7 +734,7 @@
     },
     {
       "assetName": "DocketFolderOpen",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketFolderOpen.imageset/folder-open.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketFolderOpen.imageset/folder-open.svg",
       "filename": "folder-open.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -746,7 +746,7 @@
     },
     {
       "assetName": "DocketGear",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketGear.imageset/gear.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketGear.imageset/gear.svg",
       "filename": "gear.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -758,7 +758,7 @@
     },
     {
       "assetName": "DocketMenuCheck",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketMenuCheck.imageset/menu-check.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketMenuCheck.imageset/menu-check.svg",
       "filename": "menu-check.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -770,7 +770,7 @@
     },
     {
       "assetName": "DocketRadioOff",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketRadioOff.imageset/radio-off.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketRadioOff.imageset/radio-off.svg",
       "filename": "radio-off.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -782,7 +782,7 @@
     },
     {
       "assetName": "DocketRadioOn",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketRadioOn.imageset/radio-on.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketRadioOn.imageset/radio-on.svg",
       "filename": "radio-on.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -794,7 +794,7 @@
     },
     {
       "assetName": "DocketSend",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketSend.imageset/btn-send.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketSend.imageset/btn-send.svg",
       "filename": "btn-send.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -806,7 +806,7 @@
     },
     {
       "assetName": "DocketStickyNote",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketStickyNote.imageset/sticky-note.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketStickyNote.imageset/sticky-note.svg",
       "filename": "sticky-note.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -818,7 +818,7 @@
     },
     {
       "assetName": "DocketSwipeArrow",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketSwipeArrow.imageset/swipe-arrow.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketSwipeArrow.imageset/swipe-arrow.svg",
       "filename": "swipe-arrow.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -830,7 +830,7 @@
     },
     {
       "assetName": "DocketUndo",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketUndo.imageset/btn-undo.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketUndo.imageset/btn-undo.svg",
       "filename": "btn-undo.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -842,7 +842,7 @@
     },
     {
       "assetName": "DocketVeilClose",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketVeilClose.imageset/veil-close.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketVeilClose.imageset/veil-close.svg",
       "filename": "veil-close.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -854,7 +854,7 @@
     },
     {
       "assetName": "DocketVeilSend",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketVeilSend.imageset/veil-send.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketVeilSend.imageset/veil-send.svg",
       "filename": "veil-send.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -866,7 +866,7 @@
     },
     {
       "assetName": "AppStoreFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/AppStoreFavicon.imageset/AppStore-Icon-Default@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/AppStoreFavicon.imageset/AppStore-Icon-Default@4x_1.png",
       "filename": "AppStore-Icon-Default@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -878,7 +878,7 @@
     },
     {
       "assetName": "BooksFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/BooksFavicon.imageset/Books@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/BooksFavicon.imageset/Books@4x_1.png",
       "filename": "Books@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -890,7 +890,7 @@
     },
     {
       "assetName": "CalculatorFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/CalculatorFavicon.imageset/Calculator@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/CalculatorFavicon.imageset/Calculator@4x_1.png",
       "filename": "Calculator@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -902,7 +902,7 @@
     },
     {
       "assetName": "CalendarFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/CalendarFavicon.imageset/Calendar@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/CalendarFavicon.imageset/Calendar@4x_1.png",
       "filename": "Calendar@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -914,7 +914,7 @@
     },
     {
       "assetName": "ChromeFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/ChromeFavicon.imageset/Google_Chrome_icon_(February_2022).png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/ChromeFavicon.imageset/Google_Chrome_icon_(February_2022).png",
       "filename": "Google_Chrome_icon_(February_2022).png",
       "format": "image/png",
       "group": "apps",
@@ -926,7 +926,7 @@
     },
     {
       "assetName": "ClockFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/ClockFavicon.imageset/Clock@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/ClockFavicon.imageset/Clock@4x_1.png",
       "filename": "Clock@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -938,7 +938,7 @@
     },
     {
       "assetName": "ContactsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/ContactsFavicon.imageset/Contacts@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/ContactsFavicon.imageset/Contacts@4x_1.png",
       "filename": "Contacts@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -950,7 +950,7 @@
     },
     {
       "assetName": "FaceTimeFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/FaceTimeFavicon.imageset/FaceTime@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/FaceTimeFavicon.imageset/FaceTime@4x_1.png",
       "filename": "FaceTime@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -962,7 +962,7 @@
     },
     {
       "assetName": "FilesFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/FilesFavicon.imageset/Files@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/FilesFavicon.imageset/Files@4x_1.png",
       "filename": "Files@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -974,7 +974,7 @@
     },
     {
       "assetName": "FindMyFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/FindMyFavicon.imageset/Find_My@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/FindMyFavicon.imageset/Find_My@4x_1.png",
       "filename": "Find_My@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -986,7 +986,7 @@
     },
     {
       "assetName": "FinderFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/FinderFavicon.imageset/Finder.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/FinderFavicon.imageset/Finder.png",
       "filename": "Finder.png",
       "format": "image/png",
       "group": "apps",
@@ -998,7 +998,7 @@
     },
     {
       "assetName": "FitnessFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/FitnessFavicon.imageset/Fitness@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/FitnessFavicon.imageset/Fitness@4x_1.png",
       "filename": "Fitness@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1010,7 +1010,7 @@
     },
     {
       "assetName": "FreeformFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/FreeformFavicon.imageset/Freeform@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/FreeformFavicon.imageset/Freeform@4x_1.png",
       "filename": "Freeform@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1022,7 +1022,7 @@
     },
     {
       "assetName": "GhosttyFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/GhosttyFavicon.imageset/ghostty-3.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/GhosttyFavicon.imageset/ghostty-3.png",
       "filename": "ghostty-3.png",
       "format": "image/png",
       "group": "apps",
@@ -1034,7 +1034,7 @@
     },
     {
       "assetName": "GoogleFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/GoogleFavicon.imageset/google.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/GoogleFavicon.imageset/google.png",
       "filename": "google.png",
       "format": "image/png",
       "group": "apps",
@@ -1046,7 +1046,7 @@
     },
     {
       "assetName": "HealthFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/HealthFavicon.imageset/Health@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/HealthFavicon.imageset/Health@4x_1.png",
       "filename": "Health@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1058,7 +1058,7 @@
     },
     {
       "assetName": "HomeFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/HomeFavicon.imageset/Home@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/HomeFavicon.imageset/Home@4x_1.png",
       "filename": "Home@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1070,7 +1070,7 @@
     },
     {
       "assetName": "KeynoteFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/KeynoteFavicon.imageset/Keynote@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/KeynoteFavicon.imageset/Keynote@4x_1.png",
       "filename": "Keynote@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1082,7 +1082,7 @@
     },
     {
       "assetName": "LeagueOfLegendsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/LeagueOfLegendsFavicon.imageset/leagueoflegends.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/LeagueOfLegendsFavicon.imageset/leagueoflegends.png",
       "filename": "leagueoflegends.png",
       "format": "image/png",
       "group": "apps",
@@ -1094,7 +1094,7 @@
     },
     {
       "assetName": "MailFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/MailFavicon.imageset/Mail@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/MailFavicon.imageset/Mail@4x_1.png",
       "filename": "Mail@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1106,7 +1106,7 @@
     },
     {
       "assetName": "MapsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/MapsFavicon.imageset/Maps@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/MapsFavicon.imageset/Maps@4x_1.png",
       "filename": "Maps@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1118,7 +1118,7 @@
     },
     {
       "assetName": "MessagesFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/MessagesFavicon.imageset/Messages@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/MessagesFavicon.imageset/Messages@4x_1.png",
       "filename": "Messages@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1130,7 +1130,7 @@
     },
     {
       "assetName": "MusicFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/MusicFavicon.imageset/Music@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/MusicFavicon.imageset/Music@4x_1.png",
       "filename": "Music@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1142,7 +1142,7 @@
     },
     {
       "assetName": "NewsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/NewsFavicon.imageset/News@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/NewsFavicon.imageset/News@4x_1.png",
       "filename": "News@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1154,7 +1154,7 @@
     },
     {
       "assetName": "NotesFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/NotesFavicon.imageset/Notes@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/NotesFavicon.imageset/Notes@4x_1.png",
       "filename": "Notes@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1166,7 +1166,7 @@
     },
     {
       "assetName": "NumbersFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/NumbersFavicon.imageset/Numbers@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/NumbersFavicon.imageset/Numbers@4x_1.png",
       "filename": "Numbers@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1178,7 +1178,7 @@
     },
     {
       "assetName": "PagesFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/PagesFavicon.imageset/Pages@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/PagesFavicon.imageset/Pages@4x_1.png",
       "filename": "Pages@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1190,7 +1190,7 @@
     },
     {
       "assetName": "PasswordsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/PasswordsFavicon.imageset/Passwords@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/PasswordsFavicon.imageset/Passwords@4x_1.png",
       "filename": "Passwords@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1202,7 +1202,7 @@
     },
     {
       "assetName": "PhotosFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/PhotosFavicon.imageset/Photos@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/PhotosFavicon.imageset/Photos@4x_1.png",
       "filename": "Photos@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1214,7 +1214,7 @@
     },
     {
       "assetName": "PodcastsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/PodcastsFavicon.imageset/Podcasts@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/PodcastsFavicon.imageset/Podcasts@4x_1.png",
       "filename": "Podcasts@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1226,7 +1226,7 @@
     },
     {
       "assetName": "RedditFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/RedditFavicon.imageset/reddit.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/RedditFavicon.imageset/reddit.png",
       "filename": "reddit.png",
       "format": "image/png",
       "group": "apps",
@@ -1238,7 +1238,7 @@
     },
     {
       "assetName": "RemindersFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/RemindersFavicon.imageset/Reminders@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/RemindersFavicon.imageset/Reminders@4x_1.png",
       "filename": "Reminders@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1250,7 +1250,7 @@
     },
     {
       "assetName": "SafariFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/SafariFavicon.imageset/Safari@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/SafariFavicon.imageset/Safari@4x_1.png",
       "filename": "Safari@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1262,7 +1262,7 @@
     },
     {
       "assetName": "SettingsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/SettingsFavicon.imageset/Settings@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/SettingsFavicon.imageset/Settings@4x_1.png",
       "filename": "Settings@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1274,7 +1274,7 @@
     },
     {
       "assetName": "ShortcutsFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/ShortcutsFavicon.imageset/Shortcuts@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/ShortcutsFavicon.imageset/Shortcuts@4x_1.png",
       "filename": "Shortcuts@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1286,7 +1286,7 @@
     },
     {
       "assetName": "StocksFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/StocksFavicon.imageset/Stocks@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/StocksFavicon.imageset/Stocks@4x_1.png",
       "filename": "Stocks@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1298,7 +1298,7 @@
     },
     {
       "assetName": "TVFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/TVFavicon.imageset/TV@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/TVFavicon.imageset/TV@4x_1.png",
       "filename": "TV@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1310,7 +1310,7 @@
     },
     {
       "assetName": "TerminalFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/TerminalFavicon.imageset/Terminal.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/TerminalFavicon.imageset/Terminal.png",
       "filename": "Terminal.png",
       "format": "image/png",
       "group": "apps",
@@ -1322,7 +1322,7 @@
     },
     {
       "assetName": "TranslateFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/TranslateFavicon.imageset/Translate@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/TranslateFavicon.imageset/Translate@4x_1.png",
       "filename": "Translate@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1334,7 +1334,7 @@
     },
     {
       "assetName": "VSCodeFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/VSCodeFavicon.imageset/Visual_Studio_Code_1.35_icon.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/VSCodeFavicon.imageset/Visual_Studio_Code_1.35_icon.png",
       "filename": "Visual_Studio_Code_1.35_icon.png",
       "format": "image/png",
       "group": "apps",
@@ -1346,7 +1346,7 @@
     },
     {
       "assetName": "VoiceMemosFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/VoiceMemosFavicon.imageset/Voice_Memos@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/VoiceMemosFavicon.imageset/Voice_Memos@4x_1.png",
       "filename": "Voice_Memos@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1358,7 +1358,7 @@
     },
     {
       "assetName": "WalletFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/WalletFavicon.imageset/Wallet@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/WalletFavicon.imageset/Wallet@4x_1.png",
       "filename": "Wallet@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1370,7 +1370,7 @@
     },
     {
       "assetName": "WeatherFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/WeatherFavicon.imageset/Weather@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/WeatherFavicon.imageset/Weather@4x_1.png",
       "filename": "Weather@4x_1.png",
       "format": "image/png",
       "group": "apps",
@@ -1382,7 +1382,7 @@
     },
     {
       "assetName": "XCodeFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/XCodeFavicon.imageset/xcode-s-256x256_2x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/XCodeFavicon.imageset/xcode-s-256x256_2x.png",
       "filename": "xcode-s-256x256_2x.png",
       "format": "image/png",
       "group": "apps",
@@ -1394,7 +1394,7 @@
     },
     {
       "assetName": "XFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/XFavicon.imageset/x.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/XFavicon.imageset/x.png",
       "filename": "x.png",
       "format": "image/png",
       "group": "apps",
@@ -1406,7 +1406,7 @@
     },
     {
       "assetName": "YouTubeFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/YouTubeFavicon.imageset/youtube.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/YouTubeFavicon.imageset/youtube.png",
       "filename": "youtube.png",
       "format": "image/png",
       "group": "apps",
@@ -1418,7 +1418,7 @@
     },
     {
       "assetName": "iMessageFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/iMessageFavicon.imageset/IMessage_logo (1).png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/iMessageFavicon.imageset/IMessage_logo (1).png",
       "filename": "IMessage_logo (1).png",
       "format": "image/png",
       "group": "apps",
@@ -1430,7 +1430,7 @@
     },
     {
       "assetName": "iTerm2Favicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/iTerm2Favicon.imageset/ITerm2_v3.4_icon.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/iTerm2Favicon.imageset/ITerm2_v3.4_icon.png",
       "filename": "ITerm2_v3.4_icon.png",
       "format": "image/png",
       "group": "apps",
@@ -1442,7 +1442,7 @@
     },
     {
       "assetName": "FlowEarlyBirdClose",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowEarlyBirdClose.imageset/flow-early-bird-close.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowEarlyBirdClose.imageset/flow-early-bird-close.svg",
       "filename": "flow-early-bird-close.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -1454,7 +1454,7 @@
     },
     {
       "assetName": "FlowIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowIcon.imageset/FlowIcon.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowIcon.imageset/FlowIcon.svg",
       "filename": "FlowIcon.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -1466,7 +1466,7 @@
     },
     {
       "assetName": "FlowMenuCoffee",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuCoffee.imageset/flow-menu-coffee.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuCoffee.imageset/flow-menu-coffee.svg",
       "filename": "flow-menu-coffee.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -1478,7 +1478,7 @@
     },
     {
       "assetName": "FlowMenuKeepGoing",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuKeepGoing.imageset/flow-menu-keep-going.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuKeepGoing.imageset/flow-menu-keep-going.svg",
       "filename": "flow-menu-keep-going.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -1490,7 +1490,7 @@
     },
     {
       "assetName": "FlowMenuPlay",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuPlay.imageset/flow-menu-play.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuPlay.imageset/flow-menu-play.svg",
       "filename": "flow-menu-play.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -1502,7 +1502,7 @@
     },
     {
       "assetName": "FlowMenuStop",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuStop.imageset/flow-menu-stop.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuStop.imageset/flow-menu-stop.svg",
       "filename": "flow-menu-stop.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -1514,7 +1514,7 @@
     },
     {
       "assetName": "GeminiLogo",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/GeminiLogo.imageset/gemini-logo.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/GeminiLogo.imageset/gemini-logo.png",
       "filename": "gemini-logo.png",
       "format": "image/png",
       "group": "logos",
@@ -1527,7 +1527,7 @@
     },
     {
       "assetName": "GithubIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/GithubIcon.imageset/github.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/GithubIcon.imageset/github.png",
       "filename": "github.png",
       "format": "image/png",
       "group": "logos",
@@ -1540,7 +1540,7 @@
     },
     {
       "assetName": "IconBackground",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/IconBackground.imageset/IconBackground.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/IconBackground.imageset/IconBackground.png",
       "filename": "IconBackground.png",
       "format": "image/png",
       "group": "ui",
@@ -1552,7 +1552,7 @@
     },
     {
       "assetName": "LeftArrow",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/LeftArrow.imageset/LeftArrow.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/LeftArrow.imageset/LeftArrow.png",
       "filename": "LeftArrow.png",
       "format": "image/png",
       "group": "ui",
@@ -1564,7 +1564,7 @@
     },
     {
       "assetName": "MenuBarOffIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/MenuBarOffIcon.imageset/45x36_no-dot.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/MenuBarOffIcon.imageset/45x36_no-dot.png",
       "filename": "45x36_no-dot.png",
       "format": "image/png",
       "group": "logos",
@@ -1577,7 +1577,7 @@
     },
     {
       "assetName": "MenuBarOnIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/MenuBarOnIcon.imageset/45 x 36_with-dot.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/MenuBarOnIcon.imageset/45 x 36_with-dot.png",
       "filename": "45 x 36_with-dot.png",
       "format": "image/png",
       "group": "logos",
@@ -1590,7 +1590,7 @@
     },
     {
       "assetName": "RightArrow",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/RightArrow.imageset/RightArrow.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/RightArrow.imageset/RightArrow.png",
       "filename": "RightArrow.png",
       "format": "image/png",
       "group": "ui",
@@ -1602,7 +1602,7 @@
     },
     {
       "assetName": "ThumbsUp",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/ThumbsUp.imageset/Thumb up.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/ThumbsUp.imageset/Thumb up.png",
       "filename": "Thumb up.png",
       "format": "image/png",
       "group": "ui",
@@ -1614,7 +1614,7 @@
     },
     {
       "assetName": "TimelineIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/TimelineIcon.imageset/View timeline.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/TimelineIcon.imageset/View timeline.png",
       "filename": "View timeline.png",
       "format": "image/png",
       "group": "ui",
@@ -1626,7 +1626,7 @@
     },
     {
       "assetName": "WeeklyIcon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/WeeklyIcon.imageset/weekly-view-icon.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/WeeklyIcon.imageset/weekly-view-icon.svg",
       "filename": "weekly-view-icon.svg",
       "format": "image/svg+xml",
       "group": "ui",
@@ -1638,7 +1638,7 @@
     },
     {
       "assetName": "DayGoalDistraction",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DayGoalDistraction.imageset/DayGoalDistraction.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DayGoalDistraction.imageset/DayGoalDistraction.png",
       "filename": "DayGoalDistraction.png",
       "format": "image/png",
       "group": "characters",
@@ -1650,7 +1650,7 @@
     },
     {
       "assetName": "DayGoalFocus",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DayGoalFocus.imageset/DayGoalFocus.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DayGoalFocus.imageset/DayGoalFocus.png",
       "filename": "DayGoalFocus.png",
       "format": "image/png",
       "group": "characters",
@@ -1662,7 +1662,7 @@
     },
     {
       "assetName": "clawd-excited-02",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-02.imageset/excited-02.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-02.imageset/excited-02.svg",
       "filename": "excited-02.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1674,7 +1674,7 @@
     },
     {
       "assetName": "clawd-excited-03",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-03.imageset/excited-03.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-03.imageset/excited-03.svg",
       "filename": "excited-03.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1686,7 +1686,7 @@
     },
     {
       "assetName": "clawd-excited-05",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-05.imageset/excited-05.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-05.imageset/excited-05.svg",
       "filename": "excited-05.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1698,7 +1698,7 @@
     },
     {
       "assetName": "clawd-excited-06",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-06.imageset/excited-06.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-06.imageset/excited-06.svg",
       "filename": "excited-06.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1710,7 +1710,7 @@
     },
     {
       "assetName": "clawd-excited-07",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-07.imageset/excited-07.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-07.imageset/excited-07.svg",
       "filename": "excited-07.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1722,7 +1722,7 @@
     },
     {
       "assetName": "clawd-excited-08",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-08.imageset/excited-08.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-08.imageset/excited-08.svg",
       "filename": "excited-08.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1734,7 +1734,7 @@
     },
     {
       "assetName": "clawd-excited-09",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-09.imageset/excited-09.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-09.imageset/excited-09.svg",
       "filename": "excited-09.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1746,7 +1746,7 @@
     },
     {
       "assetName": "clawd-excited-10",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-10.imageset/excited-10.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-10.imageset/excited-10.svg",
       "filename": "excited-10.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1758,7 +1758,7 @@
     },
     {
       "assetName": "clawd-excited-11",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-11.imageset/excited-11.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-11.imageset/excited-11.svg",
       "filename": "excited-11.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1770,7 +1770,7 @@
     },
     {
       "assetName": "clawd-excited-12",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-12.imageset/excited-12.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-12.imageset/excited-12.svg",
       "filename": "excited-12.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1782,7 +1782,7 @@
     },
     {
       "assetName": "clawd-excited-13",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-13.imageset/excited-13.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-13.imageset/excited-13.svg",
       "filename": "excited-13.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1794,7 +1794,7 @@
     },
     {
       "assetName": "clawd-excited-14",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-14.imageset/excited-14.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-14.imageset/excited-14.svg",
       "filename": "excited-14.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1806,7 +1806,7 @@
     },
     {
       "assetName": "clawd-excited-15",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-15.imageset/excited-15.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-15.imageset/excited-15.svg",
       "filename": "excited-15.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1818,7 +1818,7 @@
     },
     {
       "assetName": "clawd-excited-16",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-16.imageset/excited-16.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-16.imageset/excited-16.svg",
       "filename": "excited-16.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1830,7 +1830,7 @@
     },
     {
       "assetName": "clawd-excited-17",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-17.imageset/excited-17.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-17.imageset/excited-17.svg",
       "filename": "excited-17.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1842,7 +1842,7 @@
     },
     {
       "assetName": "clawd-excited-18",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-18.imageset/excited-18.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-18.imageset/excited-18.svg",
       "filename": "excited-18.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1854,7 +1854,7 @@
     },
     {
       "assetName": "clawd-excited-19",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-19.imageset/excited-19.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-19.imageset/excited-19.svg",
       "filename": "excited-19.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1866,7 +1866,7 @@
     },
     {
       "assetName": "clawd-excited-20",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-20.imageset/excited-20.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-20.imageset/excited-20.svg",
       "filename": "excited-20.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1878,7 +1878,7 @@
     },
     {
       "assetName": "clawd-excited-21",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-excited-21.imageset/excited-21.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-excited-21.imageset/excited-21.svg",
       "filename": "excited-21.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1890,7 +1890,7 @@
     },
     {
       "assetName": "clawd-jumping-00",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-00.imageset/jumping-00.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-00.imageset/jumping-00.svg",
       "filename": "jumping-00.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1902,7 +1902,7 @@
     },
     {
       "assetName": "clawd-jumping-04",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-04.imageset/jumping-04.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-04.imageset/jumping-04.svg",
       "filename": "jumping-04.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1914,7 +1914,7 @@
     },
     {
       "assetName": "clawd-jumping-05",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-05.imageset/jumping-05.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-05.imageset/jumping-05.svg",
       "filename": "jumping-05.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1926,7 +1926,7 @@
     },
     {
       "assetName": "clawd-jumping-06",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-06.imageset/jumping-06.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-06.imageset/jumping-06.svg",
       "filename": "jumping-06.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1938,7 +1938,7 @@
     },
     {
       "assetName": "clawd-jumping-07",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-07.imageset/jumping-07.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-07.imageset/jumping-07.svg",
       "filename": "jumping-07.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1950,7 +1950,7 @@
     },
     {
       "assetName": "clawd-jumping-08",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-08.imageset/jumping-08.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-08.imageset/jumping-08.svg",
       "filename": "jumping-08.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1962,7 +1962,7 @@
     },
     {
       "assetName": "clawd-jumping-09",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-09.imageset/jumping-09.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-09.imageset/jumping-09.svg",
       "filename": "jumping-09.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1974,7 +1974,7 @@
     },
     {
       "assetName": "clawd-jumping-10",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-10.imageset/jumping-10.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-10.imageset/jumping-10.svg",
       "filename": "jumping-10.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1986,7 +1986,7 @@
     },
     {
       "assetName": "clawd-jumping-12",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-12.imageset/jumping-12.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-12.imageset/jumping-12.svg",
       "filename": "jumping-12.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -1998,7 +1998,7 @@
     },
     {
       "assetName": "clawd-jumping-13",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-13.imageset/jumping-13.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-13.imageset/jumping-13.svg",
       "filename": "jumping-13.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2010,7 +2010,7 @@
     },
     {
       "assetName": "clawd-jumping-14",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-14.imageset/jumping-14.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-14.imageset/jumping-14.svg",
       "filename": "jumping-14.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2022,7 +2022,7 @@
     },
     {
       "assetName": "clawd-jumping-15",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-15.imageset/jumping-15.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-15.imageset/jumping-15.svg",
       "filename": "jumping-15.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2034,7 +2034,7 @@
     },
     {
       "assetName": "clawd-jumping-16",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-jumping-16.imageset/jumping-16.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-jumping-16.imageset/jumping-16.svg",
       "filename": "jumping-16.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2046,7 +2046,7 @@
     },
     {
       "assetName": "clawd-run-05",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-05.imageset/run-05.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-05.imageset/run-05.svg",
       "filename": "run-05.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2058,7 +2058,7 @@
     },
     {
       "assetName": "clawd-run-06",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-06.imageset/run-06.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-06.imageset/run-06.svg",
       "filename": "run-06.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2070,7 +2070,7 @@
     },
     {
       "assetName": "clawd-run-07",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-07.imageset/run-07.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-07.imageset/run-07.svg",
       "filename": "run-07.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2082,7 +2082,7 @@
     },
     {
       "assetName": "clawd-run-08",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-08.imageset/run-08.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-08.imageset/run-08.svg",
       "filename": "run-08.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2094,7 +2094,7 @@
     },
     {
       "assetName": "clawd-run-09",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-09.imageset/run-09.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-09.imageset/run-09.svg",
       "filename": "run-09.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2106,7 +2106,7 @@
     },
     {
       "assetName": "clawd-run-10",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-10.imageset/run-10.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-10.imageset/run-10.svg",
       "filename": "run-10.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2118,7 +2118,7 @@
     },
     {
       "assetName": "clawd-run-11",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-11.imageset/run-11.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-11.imageset/run-11.svg",
       "filename": "run-11.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2130,7 +2130,7 @@
     },
     {
       "assetName": "clawd-run-12",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-12.imageset/run-12.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-12.imageset/run-12.svg",
       "filename": "run-12.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2142,7 +2142,7 @@
     },
     {
       "assetName": "clawd-run-13",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-13.imageset/run-13.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-13.imageset/run-13.svg",
       "filename": "run-13.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2154,7 +2154,7 @@
     },
     {
       "assetName": "clawd-run-14",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-14.imageset/run-14.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-14.imageset/run-14.svg",
       "filename": "run-14.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2166,7 +2166,7 @@
     },
     {
       "assetName": "clawd-run-15",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-15.imageset/run-15.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-15.imageset/run-15.svg",
       "filename": "run-15.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2178,7 +2178,7 @@
     },
     {
       "assetName": "clawd-run-16",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-run-16.imageset/run-16.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-run-16.imageset/run-16.svg",
       "filename": "run-16.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2190,7 +2190,7 @@
     },
     {
       "assetName": "clawd-sway-04",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-04.imageset/sway-04.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-04.imageset/sway-04.svg",
       "filename": "sway-04.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2202,7 +2202,7 @@
     },
     {
       "assetName": "clawd-sway-06",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-06.imageset/sway-06.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-06.imageset/sway-06.svg",
       "filename": "sway-06.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2214,7 +2214,7 @@
     },
     {
       "assetName": "clawd-sway-08",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-08.imageset/sway-08.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-08.imageset/sway-08.svg",
       "filename": "sway-08.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2226,7 +2226,7 @@
     },
     {
       "assetName": "clawd-sway-10",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-10.imageset/sway-10.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-10.imageset/sway-10.svg",
       "filename": "sway-10.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2238,7 +2238,7 @@
     },
     {
       "assetName": "clawd-sway-13",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-13.imageset/sway-13.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-13.imageset/sway-13.svg",
       "filename": "sway-13.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2250,7 +2250,7 @@
     },
     {
       "assetName": "clawd-sway-15",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-15.imageset/sway-15.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-15.imageset/sway-15.svg",
       "filename": "sway-15.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2262,7 +2262,7 @@
     },
     {
       "assetName": "clawd-sway-17",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-17.imageset/sway-17.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-17.imageset/sway-17.svg",
       "filename": "sway-17.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2274,7 +2274,7 @@
     },
     {
       "assetName": "clawd-sway-19",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-19.imageset/sway-19.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-19.imageset/sway-19.svg",
       "filename": "sway-19.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2286,7 +2286,7 @@
     },
     {
       "assetName": "clawd-sway-22",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-22.imageset/sway-22.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-22.imageset/sway-22.svg",
       "filename": "sway-22.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2298,7 +2298,7 @@
     },
     {
       "assetName": "clawd-sway-24",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-24.imageset/sway-24.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-24.imageset/sway-24.svg",
       "filename": "sway-24.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2310,7 +2310,7 @@
     },
     {
       "assetName": "clawd-sway-26",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-26.imageset/sway-26.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-26.imageset/sway-26.svg",
       "filename": "sway-26.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2322,7 +2322,7 @@
     },
     {
       "assetName": "clawd-sway-28",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-28.imageset/sway-28.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-28.imageset/sway-28.svg",
       "filename": "sway-28.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2334,7 +2334,7 @@
     },
     {
       "assetName": "clawd-sway-31",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-31.imageset/sway-31.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-31.imageset/sway-31.svg",
       "filename": "sway-31.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2346,7 +2346,7 @@
     },
     {
       "assetName": "clawd-sway-33",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-33.imageset/sway-33.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-33.imageset/sway-33.svg",
       "filename": "sway-33.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2358,7 +2358,7 @@
     },
     {
       "assetName": "clawd-sway-35",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-35.imageset/sway-35.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-35.imageset/sway-35.svg",
       "filename": "sway-35.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2370,7 +2370,7 @@
     },
     {
       "assetName": "clawd-sway-37",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-37.imageset/sway-37.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-37.imageset/sway-37.svg",
       "filename": "sway-37.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2382,7 +2382,7 @@
     },
     {
       "assetName": "clawd-sway-40",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-40.imageset/sway-40.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-40.imageset/sway-40.svg",
       "filename": "sway-40.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2394,7 +2394,7 @@
     },
     {
       "assetName": "clawd-sway-42",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-42.imageset/sway-42.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-42.imageset/sway-42.svg",
       "filename": "sway-42.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2406,7 +2406,7 @@
     },
     {
       "assetName": "clawd-sway-44",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-sway-44.imageset/sway-44.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-sway-44.imageset/sway-44.svg",
       "filename": "sway-44.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2418,7 +2418,7 @@
     },
     {
       "assetName": "clawd-walk-05",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-walk-05.imageset/walk-05.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-walk-05.imageset/walk-05.svg",
       "filename": "walk-05.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2430,7 +2430,7 @@
     },
     {
       "assetName": "clawd-walk-06",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-walk-06.imageset/walk-06.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-walk-06.imageset/walk-06.svg",
       "filename": "walk-06.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2442,7 +2442,7 @@
     },
     {
       "assetName": "clawd-walk-07",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-walk-07.imageset/walk-07.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-walk-07.imageset/walk-07.svg",
       "filename": "walk-07.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2454,7 +2454,7 @@
     },
     {
       "assetName": "clawd-walk-08",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-walk-08.imageset/walk-08.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-walk-08.imageset/walk-08.svg",
       "filename": "walk-08.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2466,7 +2466,7 @@
     },
     {
       "assetName": "clawd-walk-09",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/clawd-walk-09.imageset/walk-09.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/clawd-walk-09.imageset/walk-09.svg",
       "filename": "walk-09.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2478,7 +2478,7 @@
     },
     {
       "assetName": "codex-spritesheet",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/codex-spritesheet.imageset/codex-spritesheet.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/codex-spritesheet.imageset/codex-spritesheet.png",
       "filename": "codex-spritesheet.png",
       "format": "image/png",
       "group": "characters",
@@ -2490,7 +2490,7 @@
     },
     {
       "assetName": "pose-clawd-hands-up-happy",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/pose-clawd-hands-up-happy.imageset/clawd-hands-up-happy.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/pose-clawd-hands-up-happy.imageset/clawd-hands-up-happy.svg",
       "filename": "clawd-hands-up-happy.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2502,7 +2502,7 @@
     },
     {
       "assetName": "pose-clawd-jumping-05",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/pose-clawd-jumping-05.imageset/clawd-jumping-05.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/pose-clawd-jumping-05.imageset/clawd-jumping-05.svg",
       "filename": "clawd-jumping-05.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2514,7 +2514,7 @@
     },
     {
       "assetName": "pose-clawd-jumping-13",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/pose-clawd-jumping-13.imageset/clawd-jumping-13.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/pose-clawd-jumping-13.imageset/clawd-jumping-13.svg",
       "filename": "clawd-jumping-13.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2526,7 +2526,7 @@
     },
     {
       "assetName": "pose-clawd-jumping-14",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/pose-clawd-jumping-14.imageset/clawd-jumping-14.svg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/pose-clawd-jumping-14.imageset/clawd-jumping-14.svg",
       "filename": "clawd-jumping-14.svg",
       "format": "image/svg+xml",
       "group": "characters",
@@ -2538,7 +2538,7 @@
     },
     {
       "assetName": "pose-codex-hands-up-default",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/pose-codex-hands-up-default.imageset/pose-codex-hands-up-default.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/pose-codex-hands-up-default.imageset/pose-codex-hands-up-default.png",
       "filename": "pose-codex-hands-up-default.png",
       "format": "image/png",
       "group": "characters",
@@ -2550,7 +2550,7 @@
     },
     {
       "assetName": "pose-codex-hands-up-left",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DocketPets/pose-codex-hands-up-left.imageset/pose-codex-hands-up-left.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DocketPets/pose-codex-hands-up-left.imageset/pose-codex-hands-up-left.png",
       "filename": "pose-codex-hands-up-left.png",
       "format": "image/png",
       "group": "characters",
@@ -2562,7 +2562,7 @@
     },
     {
       "assetName": "FlowCreature",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowCreature.imageset/creature-lantern.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowCreature.imageset/creature-lantern.png",
       "filename": "creature-lantern.png",
       "format": "image/png",
       "group": "characters",
@@ -2574,7 +2574,7 @@
     },
     {
       "assetName": "FlowEarlyBirdCreature",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowEarlyBirdCreature.imageset/flow-early-bird-creature.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowEarlyBirdCreature.imageset/flow-early-bird-creature.png",
       "filename": "flow-early-bird-creature.png",
       "format": "image/png",
       "group": "characters",
@@ -2586,7 +2586,7 @@
     },
     {
       "assetName": "FlowMenuCreature",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuCreature.imageset/flow-menu-creature.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuCreature.imageset/flow-menu-creature.png",
       "filename": "flow-menu-creature.png",
       "format": "image/png",
       "group": "characters",
@@ -2598,7 +2598,7 @@
     },
     {
       "assetName": "FlowMenuCreatureMeh",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuCreatureMeh.imageset/flow-menu-creature-meh.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuCreatureMeh.imageset/flow-menu-creature-meh.png",
       "filename": "flow-menu-creature-meh.png",
       "format": "image/png",
       "group": "characters",
@@ -2610,7 +2610,7 @@
     },
     {
       "assetName": "FlowMenuCreatureSleep",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuCreatureSleep.imageset/flow-menu-creature-sleep.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuCreatureSleep.imageset/flow-menu-creature-sleep.png",
       "filename": "flow-menu-creature-sleep.png",
       "format": "image/png",
       "group": "characters",
@@ -2622,7 +2622,7 @@
     },
     {
       "assetName": "FlowMenuCreatureTea",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowMenuCreatureTea.imageset/flow-menu-creature-tea.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowMenuCreatureTea.imageset/flow-menu-creature-tea.png",
       "filename": "flow-menu-creature-tea.png",
       "format": "image/png",
       "group": "characters",
@@ -2634,7 +2634,7 @@
     },
     {
       "assetName": "FlowWaitlistCreature",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/FlowWaitlistCreature.imageset/flow-waitlist-creature.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/FlowWaitlistCreature.imageset/flow-waitlist-creature.png",
       "filename": "flow-waitlist-creature.png",
       "format": "image/png",
       "group": "characters",
@@ -2646,7 +2646,7 @@
     },
     {
       "assetName": "AgentsPreview",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/AgentsPreview.imageset/agents-preview.jpg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/AgentsPreview.imageset/agents-preview.jpg",
       "filename": "agents-preview.jpg",
       "format": "image/jpeg",
       "group": "references",
@@ -2658,7 +2658,7 @@
     },
     {
       "assetName": "CategoryEditUI",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/CategoryEditUI.imageset/b22a2e8c06f48789a749d483812b71ec6e5f0dcc.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/CategoryEditUI.imageset/b22a2e8c06f48789a749d483812b71ec6e5f0dcc.png",
       "filename": "b22a2e8c06f48789a749d483812b71ec6e5f0dcc.png",
       "format": "image/png",
       "group": "references",
@@ -2670,7 +2670,7 @@
     },
     {
       "assetName": "DailyAccessPreview",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/DailyAccessPreview.imageset/Content.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/DailyAccessPreview.imageset/Content.png",
       "filename": "Content.png",
       "format": "image/png",
       "group": "references",
@@ -2682,7 +2682,7 @@
     },
     {
       "assetName": "PreviewFavicon",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/Favicons/PreviewFavicon.imageset/Preview@4x_1.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/Favicons/PreviewFavicon.imageset/Preview@4x_1.png",
       "filename": "Preview@4x_1.png",
       "format": "image/png",
       "group": "references",
@@ -2694,7 +2694,7 @@
     },
     {
       "assetName": "OnboardingTimeline",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingTimeline.imageset/timeline (1).png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingTimeline.imageset/timeline (1).png",
       "filename": "timeline (1).png",
       "format": "image/png",
       "group": "references",
@@ -2706,7 +2706,7 @@
     },
     {
       "assetName": "OnboardingUnderstanding",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/OnboardingUnderstanding.imageset/Scoop.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/OnboardingUnderstanding.imageset/Scoop.png",
       "filename": "Scoop.png",
       "format": "image/png",
       "group": "references",
@@ -2718,7 +2718,7 @@
     },
     {
       "assetName": "SankeyPreview",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/SankeyPreview.imageset/Screenshot 2026-03-04 at 2.25.56 AM.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/SankeyPreview.imageset/Screenshot 2026-03-04 at 2.25.56 AM.png",
       "filename": "Screenshot 2026-03-04 at 2.25.56 AM.png",
       "format": "image/png",
       "group": "references",
@@ -2730,7 +2730,7 @@
     },
     {
       "assetName": "ScreenRecordingPermissions",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/ScreenRecordingPermissions.imageset/Frame 2147228556.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/ScreenRecordingPermissions.imageset/Frame 2147228556.png",
       "filename": "Frame 2147228556.png",
       "format": "image/png",
       "group": "references",
@@ -2742,7 +2742,7 @@
     },
     {
       "assetName": "TreemapPreview",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/TreemapPreview.imageset/Screenshot 2026-03-04 at 2.27.39 AM.png",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/TreemapPreview.imageset/Screenshot 2026-03-04 at 2.27.39 AM.png",
       "filename": "Screenshot 2026-03-04 at 2.27.39 AM.png",
       "format": "image/png",
       "group": "references",
@@ -2754,7 +2754,7 @@
     },
     {
       "assetName": "WeeklyCalendarPreview",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/WeeklyCalendarPreview.imageset/weeklycalpreview.jpg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/WeeklyCalendarPreview.imageset/weeklycalpreview.jpg",
       "filename": "weeklycalpreview.jpg",
       "format": "image/jpeg",
       "group": "references",
@@ -2766,7 +2766,7 @@
     },
     {
       "assetName": "WeeklyPreview",
-      "sourcePath": "Dayflow/Dayflow/Assets.xcassets/WeeklyPreview.imageset/weeklypreview.jpg",
+      "sourcePath": "macos/Udaimania/Assets.xcassets/WeeklyPreview.imageset/weeklypreview.jpg",
       "filename": "weeklypreview.jpg",
       "format": "image/jpeg",
       "group": "references",

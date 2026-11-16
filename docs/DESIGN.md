@@ -25,7 +25,7 @@ retain their existing instance connections.
 
 ## Assets
 
-All 230 source files from `Dayflow/Dayflow/Assets.xcassets` are retained. Their
+All 230 source files from `macos/Udaimania/Assets.xcassets` are retained. Their
 SHA-256 digests are unique; distinct source resolutions remain separately labeled.
 
 | Page | Source assets |
@@ -43,7 +43,7 @@ The interface-icons page also contains the 8 connected navigation masters and
 The 105 SVG imports contain editable vector layers. The 125 raster imports retain
 their original image content; text baked into images is not editable. Animation
 frames and sprite sheets are included as assets, without playback timing. Asset
-names, original Dayflow artwork, and third-party logos are retained for traceability.
+names, original upstream artwork, and third-party logos are retained for traceability.
 
 ## States & Layouts
 

@@ -14,7 +14,7 @@ if [[ $# -eq 0 ]]; then
 fi
 
 exec /usr/bin/xcodebuild \
-  -project "$PROJECT_ROOT/Dayflow/Udaimania.xcodeproj" \
+  -project "$PROJECT_ROOT/macos/Udaimania.xcodeproj" \
   -scheme "Udaimania" \
   -configuration Development \
   -destination "platform=macOS,arch=$(uname -m)" \

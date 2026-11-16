@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "udaimania": {
+      "command": "/bin/sh",
+      "args": ["./bin/udaimania-mcp"],
+      "cwd": "."
+    }
+  }
+}

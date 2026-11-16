@@ -1,0 +1,46 @@
+{
+  "name": "udaimania",
+  "version": "0.1.0",
+  "description": "Ask about your day. Udaimania's timeline of what you worked on, read locally from your Mac.",
+  "author": {
+    "name": "Udaimania",
+    "url": "https://github.com/udaimania/Udaimania"
+  },
+  "homepage": "https://github.com/udaimania/Udaimania",
+  "repository": "https://github.com/udaimania/Udaimania",
+  "license": "MIT",
+  "keywords": [
+    "time tracking",
+    "timeline",
+    "productivity",
+    "standup"
+  ],
+  "skills": "./skills/",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/onboarding/SKILL.md"
+    }
+  },
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Udaimania",
+    "shortDescription": "Your day's timeline, from the Udaimania Mac app.",
+    "longDescription": "Udaimania records what you work on and turns it into a timeline. This plugin lets you ask where your time went and draft standups and weekly reviews from it. Everything is read from the Udaimania app on this Mac; nothing is uploaded by the plugin.",
+    "developerName": "Udaimania",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/udaimania/Udaimania",
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "logoDark": "./assets/icon-dark.svg",
+    "brandColor": "#F96E00",
+    "defaultPrompt": [
+      "@Udaimania what did I work on today?",
+      "@Udaimania where did my time go this week?",
+      "@Udaimania write my standup from yesterday."
+    ]
+  }
+}

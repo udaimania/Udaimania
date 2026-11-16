@@ -9,12 +9,12 @@ set -euo pipefail
 #   scripts/sparkle_sign_from_keychain.sh <archive> [service-name]
 #
 # Example:
-#   scripts/sparkle_sign_from_keychain.sh Dayflow.dmg com.dayflow.sparkle.ed25519
+#   scripts/sparkle_sign_from_keychain.sh Udaimania.dmg com.udaimania.sparkle.ed25519
 #
 # Requirements: Sparkle's `sign_update` must be in PATH.
 
 ARCHIVE=${1:?"Usage: $0 <archive> [service-name]"}
-SERVICE=${2:-com.dayflow.sparkle.ed25519}
+SERVICE=${2:-com.udaimania.sparkle.ed25519}
 
 if ! command -v sign_update >/dev/null 2>&1; then
   echo "ERROR: sign_update not found in PATH. Install Sparkle's Command Line Tools." >&2

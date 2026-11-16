@@ -7,8 +7,8 @@ set -euo pipefail
 #
 # Usage:
 #   scripts/make_appcast.sh \
-#     --dmg Dayflow.dmg \
-#     --url https://github.com/you/repo/releases/download/v1.2.3/Dayflow.dmg \
+#     --dmg Udaimania.dmg \
+#     --url https://github.com/you/repo/releases/download/v1.2.3/Udaimania.dmg \
 #     --short 1.2.3 \
 #     --build 123 \
 #     --signature <BASE64_EDDSA_SIG> \
@@ -58,7 +58,7 @@ cat > "$OUT" <<XML
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
-    <title>Dayflow Updates</title>
+    <title>Udaimania Updates</title>
     <language>en</language>
     <item>
       <title>Version ${SHORT_VER}</title>

@@ -1,6 +1,6 @@
 import XCTest
 
-@testable import Dayflow
+@testable import Udaimania
 
 final class ChatCLIProcessRunnerTests: XCTestCase {
   private let runner = ChatCLIProcessRunner()
@@ -77,7 +77,7 @@ final class ChatCLIProcessRunnerTests: XCTestCase {
     XCTAssertTrue(runner.shouldDisableConfiguredCodexMCPServers(processEnvironment: [:]))
     XCTAssertFalse(
       runner.shouldDisableConfiguredCodexMCPServers(
-        processEnvironment: ["CODEX_HOME": "/tmp/dayflow-codex-home"]
+        processEnvironment: ["CODEX_HOME": "/tmp/udaimania-codex-home"]
       )
     )
   }

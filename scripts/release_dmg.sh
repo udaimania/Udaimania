@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Release helper for Dayflow: builds, signs, notarizes, and packages a DMG for distribution.
+# Release helper for Udaimania: builds, signs, notarizes, and packages a DMG for distribution.
 #
 # Usage:
 #   ./scripts/release_dmg.sh
 #
 # Optional env vars:
-#   SCHEME           - Xcode scheme (default: Dayflow)
+#   SCHEME           - Xcode scheme (default: Udaimania)
 #   CONFIG           - Xcode configuration (default: Release)
 #   DERIVED_DATA     - Derived data path (default: build)
-#   APP_NAME         - App name (default: Dayflow)
-#   ENTITLEMENTS     - Entitlements plist path (default: Dayflow/Dayflow/Dayflow.entitlements)
+#   APP_NAME         - App name (default: Udaimania)
+#   ENTITLEMENTS     - Entitlements plist path (default: macos/Udaimania/Udaimania.entitlements)
 #   SIGN_ID          - Codesign identity (e.g. "Developer ID Application: Your Name (TEAMID)")
 #   VOL_NAME         - DMG volume name (defaults to APP_NAME)
 #   DMG_NAME         - Output DMG name (defaults to "${APP_NAME}.dmg")
@@ -30,22 +30,22 @@ if [[ -f "${SCRIPT_DIR}/release.env" ]]; then
   source "${SCRIPT_DIR}/release.env"
 fi
 
-SCHEME=${SCHEME:-Dayflow}
+SCHEME=${SCHEME:-Udaimania}
 CONFIG=${CONFIG:-Release}
 DERIVED_DATA=${DERIVED_DATA:-build}
-APP_NAME=${APP_NAME:-Dayflow}
-ENTITLEMENTS=${ENTITLEMENTS:-Dayflow/Dayflow/Dayflow.entitlements}
+APP_NAME=${APP_NAME:-Udaimania}
+ENTITLEMENTS=${ENTITLEMENTS:-macos/Udaimania/Udaimania.entitlements}
 VOL_NAME=${VOL_NAME:-$APP_NAME}
 DMG_NAME=${DMG_NAME:-"${APP_NAME}.dmg"}
 
 APP_PATH="${DERIVED_DATA}/Build/Products/${CONFIG}/${APP_NAME}.app"
 # Work in a non-iCloud temporary directory to avoid fileprovider xattrs
-SANITIZED_DIR=${SANITIZED_DIR:-$(mktemp -d -t dayflow_sign)}
+SANITIZED_DIR=${SANITIZED_DIR:-$(mktemp -d -t udaimania_sign)}
 trap 'rm -rf "${SANITIZED_DIR}"' EXIT
 SANITIZED_APP="${SANITIZED_DIR}/${APP_NAME}.app"
 
 # Fixed project location inside repo
-PROJECT_PATH=${PROJECT_PATH:-Dayflow/Udaimania.xcodeproj}
+PROJECT_PATH=${PROJECT_PATH:-macos/Udaimania.xcodeproj}
 if [[ ! -d "$PROJECT_PATH" ]]; then
   echo "ERROR: Xcode project not found at $PROJECT_PATH" >&2
   exit 1
@@ -179,13 +179,13 @@ if [[ -n "${SENTRY_ENV:-}" ]]; then
   /usr/libexec/PlistBuddy -c "Set :SentryEnvironment ${SENTRY_ENV}" "${SANITIZED_APP}/Contents/Info.plist" \
     >/dev/null 2>&1 || /usr/libexec/PlistBuddy -c "Add :SentryEnvironment string ${SENTRY_ENV}" "${SANITIZED_APP}/Contents/Info.plist"
 fi
-if [[ -z "${DAYFLOW_BACKEND_URL:-}" ]]; then
-  echo "ERROR: DAYFLOW_BACKEND_URL must be set before building a release DMG." >&2
+if [[ -z "${UDAIMANIA_BACKEND_URL:-}" ]]; then
+  echo "ERROR: UDAIMANIA_BACKEND_URL must be set before building a release DMG." >&2
   exit 1
 fi
-RESOLVED_DAYFLOW_BACKEND_URL="${DAYFLOW_BACKEND_URL}"
-/usr/libexec/PlistBuddy -c "Set :DayflowBackendURL ${RESOLVED_DAYFLOW_BACKEND_URL}" "${SANITIZED_APP}/Contents/Info.plist" \
-  >/dev/null 2>&1 || /usr/libexec/PlistBuddy -c "Add :DayflowBackendURL string ${RESOLVED_DAYFLOW_BACKEND_URL}" "${SANITIZED_APP}/Contents/Info.plist"
+RESOLVED_UDAIMANIA_BACKEND_URL="${UDAIMANIA_BACKEND_URL}"
+/usr/libexec/PlistBuddy -c "Set :UdaimaniaBackendURL ${RESOLVED_UDAIMANIA_BACKEND_URL}" "${SANITIZED_APP}/Contents/Info.plist" \
+  >/dev/null 2>&1 || /usr/libexec/PlistBuddy -c "Add :UdaimaniaBackendURL string ${RESOLVED_UDAIMANIA_BACKEND_URL}" "${SANITIZED_APP}/Contents/Info.plist"
 
 # Resolve $(PRODUCT_BUNDLE_IDENTIFIER) in entitlements before codesigning
 BUNDLE_ID=$(/usr/libexec/PlistBuddy -c 'Print :CFBundleIdentifier' "${SANITIZED_APP}/Contents/Info.plist" 2>/dev/null || true)
@@ -201,14 +201,14 @@ else
   cp "${ENTITLEMENTS}" "${RESOLVED_ENTS}"
 fi
 
-# Sign the bundled dayflow CLI before the app container seals over it.
+# Sign the bundled udaimania CLI before the app container seals over it.
 # It's a plain hardened-runtime binary with no entitlements of its own.
-CLI_BINARY="${SANITIZED_APP}/Contents/Helpers/dayflow"
+CLI_BINARY="${SANITIZED_APP}/Contents/Helpers/udaimania"
 if [[ -f "${CLI_BINARY}" ]]; then
   codesign -vvv --force -o runtime --timestamp --sign "${SIGN_ID}" "${CLI_BINARY}"
 else
-  echo "WARNING: bundled dayflow CLI not found at ${CLI_BINARY}." >&2
-  echo "         The 'Embed Dayflow CLI' build phase may not have run." >&2
+  echo "WARNING: bundled udaimania CLI not found at ${CLI_BINARY}." >&2
+  echo "         The 'Embed Udaimania CLI' build phase may not have run." >&2
 fi
 
 # Now sign the top-level app bundle (no --deep), using resolved entitlements
@@ -225,10 +225,10 @@ if command -v rg >/dev/null 2>&1; then
   if ! printf "%s" "$ENT_DUMP" | rg -q "com.apple.security.temporary-exception.mach-lookup.global-name"; then
     echo "WARNING: mach-lookup entitlement missing on app. Check entitlements substitution." >&2
   fi
-  if ! printf "%s" "$ENT_DUMP" | rg -q -e "-spks|teleportlabs.com.Dayflow-spks"; then
+  if ! printf "%s" "$ENT_DUMP" | rg -q -e "-spks|com.udaimania.app-spks"; then
     echo "WARNING: Sparkle status mach service (-spks) not present in entitlements." >&2
   fi
-  if ! printf "%s" "$ENT_DUMP" | rg -q -e "-spki|teleportlabs.com.Dayflow-spki"; then
+  if ! printf "%s" "$ENT_DUMP" | rg -q -e "-spki|com.udaimania.app-spki"; then
     echo "WARNING: Sparkle installer mach service (-spki) not present in entitlements." >&2
   fi
 fi
@@ -267,7 +267,7 @@ fi
 rm -f "${DMG_NAME}"
 
 # Window size and positions tuned for docs/assets/dmg-background.png (1550×960 @2x, displays as 775×480)
-# Dayflow app on left, Applications folder on right (swapped from typical layout)
+# Udaimania app on left, Applications folder on right (swapped from typical layout)
 create-dmg \
   --volname "${VOL_NAME}" \
   --background "${DMG_BG}" \

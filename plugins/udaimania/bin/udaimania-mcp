@@ -1,0 +1,17 @@
+#!/bin/sh
+# Starts Udaimania's MCP server. The server ships inside Udaimania.app so it
+# always matches the installed app's database, which is why this plugin
+# carries a launcher rather than its own copy.
+for cli in \
+  "${UDAIMANIA_CLI:-}" \
+  "/Applications/Udaimania.app/Contents/Helpers/udaimania" \
+  "$HOME/Applications/Udaimania.app/Contents/Helpers/udaimania" \
+  "/usr/local/bin/udaimania"
+do
+  if [ -n "$cli" ] && [ -x "$cli" ]; then
+    exec "$cli" mcp
+  fi
+done
+
+echo "Udaimania is not installed. Get it at https://github.com/udaimania/Udaimania, then restart this plugin." >&2
+exit 1

@@ -1,18 +1,18 @@
 *.dmg
 *.DS_Store
 .DS_Store
-Dayflow/build*
+macos/build*
 *.xcuserstate
 xcuserdata/
 LLMEvalScript.swift
-Dayflow/eval/
+macos/eval/
 evals/
 build/
 build_tmp/
 build_universal/
 .claude/
 scripts/release.env
-Dayflow/Config/LocalSecrets.xcconfig
+macos/Config/LocalSecrets.xcconfig
 signed/
 
 # Ignore Claude prompt notes
@@ -20,24 +20,27 @@ CLAUDE.md
 claude.md
 
 # Tauri migration (WIP)
-dayflow-tauri/
+udaimania-tauri/
 agents.md
 
 # Internal tools
 tools/*
-!tools/dayflow-cli/
-!tools/dayflow-cli/**
+!tools/udaimania-cli/
+!tools/udaimania-cli/**
 
 # Eval frameworks
 claudeeval/
 codexeval/
 
-# Dayflow CLI SwiftPM artifacts
-tools/dayflow-cli/.build/
+# Udaimania CLI SwiftPM artifacts
+tools/udaimania-cli/.build/
 
 # Research and analysis notes (local only)
 reports/
 research_notes/
 
 # Isolated development helper build
-tools/dayflow-cli/.build-development/
+tools/udaimania-cli/.build-development/
+
+# Repository guidance is versioned
+!AGENTS.md
