@@ -1,3 +1,16 @@
+# Udaimania
+
+Udaimania is our macOS product project, built on the open-source [Dayflow](https://github.com/JerryZLiu/Dayflow) codebase.
+
+> **Development:** Use the **Udaimania** Xcode scheme for local changes.
+> See [local development setup](docs/DEVELOPMENT.md) for build commands and data isolation.
+
+The [visual redesign workspace](docs/DESIGN.md) contains the Figma asset file and source mapping.
+
+## Upstream Dayflow reference
+
+The material below describes the upstream app. The local Udaimania build uses the development instructions above.
+
 <div align="center">
   <img src="docs/images/dayflow_header.png" alt="Dayflow" width="380">
 
@@ -125,7 +138,7 @@ brew install --cask dayflow
 ```bash
 git clone https://github.com/JerryZLiu/Dayflow.git
 cd Dayflow
-open Dayflow/Dayflow.xcodeproj
+open Dayflow/Udaimania.xcodeproj
 ```
 
 Select the Dayflow scheme in Xcode and run it.

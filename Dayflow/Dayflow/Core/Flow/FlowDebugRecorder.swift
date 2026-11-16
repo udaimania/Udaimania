@@ -19,13 +19,13 @@
     static let shared = FlowDebugRecorder()
 
     static var outputURL: URL {
-      URL(fileURLWithPath: "/tmp/dayflow-flow-walkthrough.mov")
+      URL(fileURLWithPath: "/tmp/\(AppIdentity.agentServerName)-flow-walkthrough.mov")
     }
 
     private var stream: SCStream?
 
     /// Recording runs for as long as this file exists.
-    static let flagPath = "/tmp/dayflow-flow-record.flag"
+    static let flagPath = "/tmp/\(AppIdentity.agentServerName)-flow-record.flag"
     private var timer: Timer?
 
     func install() {

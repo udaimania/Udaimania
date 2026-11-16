@@ -35,7 +35,7 @@ func runMCPServer() -> Never {
         result: [
           "protocolVersion": mcpProtocolVersion,
           "capabilities": ["tools": ["listChanged": false]],
-          "serverInfo": ["name": "dayflow", "version": cliVersion],
+          "serverInfo": ["name": AppIdentity.agentServerName, "version": cliVersion],
         ])
     case "notifications/initialized", "notifications/cancelled":
       continue  // Notifications get no response.

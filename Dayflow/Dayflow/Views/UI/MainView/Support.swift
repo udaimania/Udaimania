@@ -28,7 +28,7 @@ let timelinePerfLogger = Logger(
 )
 
 #if DEBUG
-  private let timelinePerfLogFileURL = URL(fileURLWithPath: "/tmp/dayflow-timeline-perf.log")
+  private let timelinePerfLogFileURL = URL(fileURLWithPath: "/tmp/\(AppIdentity.agentServerName)-timeline-perf.log")
   private let timelinePerfLogQueue = DispatchQueue(
     label: "teleportlabs.com.Dayflow.timelinePerfLog")
   private let timelinePerfTimestampFormatter: ISO8601DateFormatter = {

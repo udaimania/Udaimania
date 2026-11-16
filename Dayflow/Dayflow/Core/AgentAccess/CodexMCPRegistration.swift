@@ -75,7 +75,7 @@ struct CodexMCPRegistration: @unchecked Sendable {
 
     let result = runCommand(
       executableURL,
-      ["mcp", "add", "dayflow", "--", cliPath, "mcp"]
+      ["mcp", "add", AppIdentity.agentServerName, "--", cliPath, "mcp"]
     )
     guard result.exitCode == 0 else {
       return .failed(commandFailureMessage(action: .connect, result: result))
@@ -106,7 +106,7 @@ struct CodexMCPRegistration: @unchecked Sendable {
       break
     }
 
-    let result = runCommand(executableURL, ["mcp", "remove", "dayflow"])
+    let result = runCommand(executableURL, ["mcp", "remove", AppIdentity.agentServerName])
     guard result.exitCode == 0 else {
       return .failed(commandFailureMessage(action: .disconnect, result: result))
     }
@@ -125,7 +125,7 @@ struct CodexMCPRegistration: @unchecked Sendable {
 
     let result = runCommand(
       executableURL,
-      ["mcp", "add", "dayflow", "--", cliPath, "mcp"]
+      ["mcp", "add", AppIdentity.agentServerName, "--", cliPath, "mcp"]
     )
     if result.exitCode == 0, status(using: executableURL) == .connected {
       print("AgentAccess: repaired stale Dayflow path in Codex")
@@ -133,7 +133,7 @@ struct CodexMCPRegistration: @unchecked Sendable {
   }
 
   private func status(using executableURL: URL) -> Status {
-    let result = runCommand(executableURL, ["mcp", "get", "dayflow", "--json"])
+    let result = runCommand(executableURL, ["mcp", "get", AppIdentity.agentServerName, "--json"])
     guard result.exitCode == 0 else {
       if isMissingServerResult(result) {
         return .available
@@ -167,7 +167,7 @@ struct CodexMCPRegistration: @unchecked Sendable {
 
   private func isMissingServerResult(_ result: CommandResult) -> Bool {
     let output = (result.stdout + "\n" + result.stderr).lowercased()
-    return output.contains("dayflow")
+    return output.contains(AppIdentity.agentServerName)
       && (output.contains("no mcp server") || output.contains("not found"))
   }
 
@@ -182,7 +182,7 @@ struct CodexMCPRegistration: @unchecked Sendable {
       && helpersURL.lastPathComponent == "Helpers"
       && contentsURL.lastPathComponent == "Contents"
       && appURL.pathExtension == "app"
-      && appURL.deletingPathExtension().lastPathComponent == "Dayflow"
+      && AppIdentity.recognizedAppNames.contains(appURL.deletingPathExtension().lastPathComponent)
   }
 
   private func standardizedPath(_ path: String) -> String {
@@ -214,7 +214,7 @@ struct CodexMCPRegistration: @unchecked Sendable {
   }
 
   private var conflictingRegistrationMessage: String {
-    "Codex already has a custom MCP server named dayflow. Dayflow left it unchanged."
+    "Codex already has a custom MCP server named \(AppIdentity.agentServerName). Dayflow left it unchanged."
   }
 }
 

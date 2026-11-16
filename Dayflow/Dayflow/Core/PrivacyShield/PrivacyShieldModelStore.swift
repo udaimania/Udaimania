@@ -36,7 +36,7 @@ enum PrivacyShieldModelStore {
 
   static var rootDirectory: URL {
     FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
-      .appendingPathComponent("Dayflow/privacy-model", isDirectory: true)
+      .appendingPathComponent("\(AppIdentity.storageDirectoryName)/privacy-model", isDirectory: true)
   }
 
   private static func directory(for version: String) -> URL {

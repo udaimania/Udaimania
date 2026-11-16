@@ -4,7 +4,7 @@ import XCTest
 
 final class AgentClientRegistrationTests: XCTestCase {
   private let executableURL = URL(fileURLWithPath: "/tmp/codex")
-  private let cliPath = "/Applications/Dayflow.app/Contents/Helpers/dayflow"
+  private let cliPath = "/Applications/\(AppIdentity.displayName).app/Contents/Helpers/dayflow"
 
   func testCodexIsTheFirstVisibleClient() {
     XCTAssertEqual(AgentClient.allCases.first, .codex)
@@ -26,7 +26,7 @@ final class AgentClientRegistrationTests: XCTestCase {
 
   func testStatusVerifiesTheExpectedCommandAndArguments() {
     let registration = makeRegistration { arguments in
-      XCTAssertEqual(arguments, ["mcp", "get", "dayflow", "--json"])
+      XCTAssertEqual(arguments, ["mcp", "get", AppIdentity.agentServerName, "--json"])
       return self.connectedResult()
     }
 
@@ -38,20 +38,20 @@ final class AgentClientRegistrationTests: XCTestCase {
     var commands: [[String]] = []
     let registration = makeRegistration { arguments in
       commands.append(arguments)
-      if arguments == ["mcp", "get", "dayflow", "--json"] {
+      if arguments == ["mcp", "get", AppIdentity.agentServerName, "--json"] {
         getCount += 1
         return getCount == 1 ? self.connectedResult(enabled: false) : self.connectedResult()
       }
-      return .init(stdout: "Added global MCP server 'dayflow'.", stderr: "", exitCode: 0)
+      return .init(stdout: "Added global MCP server '\(AppIdentity.agentServerName)'.", stderr: "", exitCode: 0)
     }
 
     XCTAssertEqual(registration.connect(), .connected)
     XCTAssertEqual(
       commands,
       [
-        ["mcp", "get", "dayflow", "--json"],
-        ["mcp", "add", "dayflow", "--", cliPath, "mcp"],
-        ["mcp", "get", "dayflow", "--json"],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
+        ["mcp", "add", AppIdentity.agentServerName, "--", cliPath, "mcp"],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
       ]
     )
   }
@@ -61,20 +61,20 @@ final class AgentClientRegistrationTests: XCTestCase {
     var getCount = 0
     let registration = makeRegistration { arguments in
       commands.append(arguments)
-      if arguments == ["mcp", "get", "dayflow", "--json"] {
+      if arguments == ["mcp", "get", AppIdentity.agentServerName, "--json"] {
         getCount += 1
         return getCount == 1 ? self.missingResult : self.connectedResult()
       }
-      return .init(stdout: "Added global MCP server 'dayflow'.", stderr: "", exitCode: 0)
+      return .init(stdout: "Added global MCP server '\(AppIdentity.agentServerName)'.", stderr: "", exitCode: 0)
     }
 
     XCTAssertEqual(registration.connect(), .connected)
     XCTAssertEqual(
       commands,
       [
-        ["mcp", "get", "dayflow", "--json"],
-        ["mcp", "add", "dayflow", "--", cliPath, "mcp"],
-        ["mcp", "get", "dayflow", "--json"],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
+        ["mcp", "add", AppIdentity.agentServerName, "--", cliPath, "mcp"],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
       ]
     )
   }
@@ -88,9 +88,9 @@ final class AgentClientRegistrationTests: XCTestCase {
 
     XCTAssertEqual(
       registration.connect(),
-      .failed("Codex already has a custom MCP server named dayflow. Dayflow left it unchanged.")
+      .failed("Codex already has a custom MCP server named \(AppIdentity.agentServerName). Dayflow left it unchanged.")
     )
-    XCTAssertEqual(commands, [["mcp", "get", "dayflow", "--json"]])
+    XCTAssertEqual(commands, [["mcp", "get", AppIdentity.agentServerName, "--json"]])
   }
 
   func testConnectRepairsAStaleBundledHelperPath() {
@@ -98,20 +98,20 @@ final class AgentClientRegistrationTests: XCTestCase {
     var commands: [[String]] = []
     let registration = makeRegistration { arguments in
       commands.append(arguments)
-      if arguments == ["mcp", "get", "dayflow", "--json"] {
+      if arguments == ["mcp", "get", AppIdentity.agentServerName, "--json"] {
         getCount += 1
         return getCount == 1
           ? self.configurationResult(
-            command: "/Applications/Old/Dayflow.app/Contents/Helpers/dayflow",
+            command: "/Applications/Old/\(AppIdentity.displayName).app/Contents/Helpers/dayflow",
             args: ["mcp"]
           )
           : self.connectedResult()
       }
-      return .init(stdout: "Added global MCP server 'dayflow'.", stderr: "", exitCode: 0)
+      return .init(stdout: "Added global MCP server '\(AppIdentity.agentServerName)'.", stderr: "", exitCode: 0)
     }
 
     XCTAssertEqual(registration.connect(), .connected)
-    XCTAssertTrue(commands.contains(["mcp", "add", "dayflow", "--", cliPath, "mcp"]))
+    XCTAssertTrue(commands.contains(["mcp", "add", AppIdentity.agentServerName, "--", cliPath, "mcp"]))
   }
 
   func testDisconnectRunsRemoveThenVerifiesItIsGone() {
@@ -119,20 +119,20 @@ final class AgentClientRegistrationTests: XCTestCase {
     var commands: [[String]] = []
     let registration = makeRegistration { arguments in
       commands.append(arguments)
-      if arguments == ["mcp", "get", "dayflow", "--json"] {
+      if arguments == ["mcp", "get", AppIdentity.agentServerName, "--json"] {
         getCount += 1
         return getCount == 1 ? self.connectedResult() : self.missingResult
       }
-      return .init(stdout: "Removed global MCP server 'dayflow'.", stderr: "", exitCode: 0)
+      return .init(stdout: "Removed global MCP server '\(AppIdentity.agentServerName)'.", stderr: "", exitCode: 0)
     }
 
     XCTAssertEqual(registration.disconnect(), .disconnected)
     XCTAssertEqual(
       commands,
       [
-        ["mcp", "get", "dayflow", "--json"],
-        ["mcp", "remove", "dayflow"],
-        ["mcp", "get", "dayflow", "--json"],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
+        ["mcp", "remove", AppIdentity.agentServerName],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
       ]
     )
   }
@@ -142,27 +142,27 @@ final class AgentClientRegistrationTests: XCTestCase {
     var commands: [[String]] = []
     let registration = makeRegistration { arguments in
       commands.append(arguments)
-      if arguments == ["mcp", "get", "dayflow", "--json"] {
+      if arguments == ["mcp", "get", AppIdentity.agentServerName, "--json"] {
         getCount += 1
         return getCount == 1 ? self.connectedResult(enabled: false) : self.missingResult
       }
-      return .init(stdout: "Removed global MCP server 'dayflow'.", stderr: "", exitCode: 0)
+      return .init(stdout: "Removed global MCP server '\(AppIdentity.agentServerName)'.", stderr: "", exitCode: 0)
     }
 
     XCTAssertEqual(registration.disconnect(), .disconnected)
     XCTAssertEqual(
       commands,
       [
-        ["mcp", "get", "dayflow", "--json"],
-        ["mcp", "remove", "dayflow"],
-        ["mcp", "get", "dayflow", "--json"],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
+        ["mcp", "remove", AppIdentity.agentServerName],
+        ["mcp", "get", AppIdentity.agentServerName, "--json"],
       ]
     )
   }
 
   func testConnectSurfacesCodexFailureDetails() {
     let registration = makeRegistration { arguments in
-      if arguments == ["mcp", "get", "dayflow", "--json"] {
+      if arguments == ["mcp", "get", AppIdentity.agentServerName, "--json"] {
         return self.missingResult
       }
       return .init(stdout: "", stderr: "permission denied", exitCode: 1)
@@ -170,14 +170,14 @@ final class AgentClientRegistrationTests: XCTestCase {
 
     XCTAssertEqual(
       registration.connect(),
-      .failed("Codex couldn't connect the Dayflow connection: permission denied")
+      .failed("Codex couldn't connect to Dayflow: permission denied")
     )
   }
 
   private var missingResult: CodexMCPRegistration.CommandResult {
     .init(
       stdout: "",
-      stderr: "Error: No MCP server named 'dayflow' found.",
+      stderr: "Error: No MCP server named '\(AppIdentity.agentServerName)' found.",
       exitCode: 1
     )
   }
@@ -205,7 +205,7 @@ final class AgentClientRegistrationTests: XCTestCase {
     enabled: Bool = true
   ) -> CodexMCPRegistration.CommandResult {
     let configuration: [String: Any] = [
-      "name": "dayflow",
+      "name": AppIdentity.agentServerName,
       "enabled": enabled,
       "transport": [
         "type": "stdio",

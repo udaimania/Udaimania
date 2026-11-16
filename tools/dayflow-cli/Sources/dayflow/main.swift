@@ -397,7 +397,7 @@ func runStatus() {
 
 func runLink(remove: Bool) {
   let binaryPath = URL(fileURLWithPath: CommandLine.arguments[0]).resolvingSymlinksInPath().path
-  let linkPath = "/usr/local/bin/dayflow"
+  let linkPath = AppIdentity.terminalLinkPath
   let fileManager = FileManager.default
 
   if remove {

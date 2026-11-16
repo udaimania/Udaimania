@@ -4,6 +4,7 @@ enum StoragePathMigrator {
   private static let migrationFlagKey = "didMigrateFromSandbox"
 
   static func migrateIfNeeded() {
+    guard !AppIdentity.isDevelopment else { return }
     let defaults = UserDefaults.standard
     if defaults.bool(forKey: migrationFlagKey) {
       print("ℹ️ StoragePathMigrator: skipping – already migrated")
@@ -37,7 +38,7 @@ enum StoragePathMigrator {
       return
     }
 
-    let destinationBase = newSupport.appendingPathComponent("Dayflow", isDirectory: true)
+    let destinationBase = newSupport.appendingPathComponent(AppIdentity.storageDirectoryName, isDirectory: true)
 
     let normalizedLegacy = legacyBase.standardizedFileURL.path
     let normalizedDestination = destinationBase.standardizedFileURL.path

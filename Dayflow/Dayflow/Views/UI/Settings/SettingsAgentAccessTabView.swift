@@ -463,7 +463,7 @@ final class AgentAccessViewModel: ObservableObject {
   func toggleTerminalCommand() {
     terminalError = nil
     if terminalInstalled {
-      try? FileManager.default.removeItem(atPath: "/usr/local/bin/dayflow")
+      try? FileManager.default.removeItem(atPath: AppIdentity.terminalLinkPath)
     } else {
       terminalError = AgentClientRegistration.installTerminalCommand()
     }

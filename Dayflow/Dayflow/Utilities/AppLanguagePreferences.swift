@@ -36,7 +36,7 @@ enum AppLanguagePreferences {
     // Read only the app domain: the global AppleLanguages array is the system
     // preference, not an explicit override for Dayflow.
     let domain = defaults.persistentDomain(
-      forName: Bundle.main.bundleIdentifier ?? "teleportlabs.com.Dayflow")
+      forName: Bundle.main.bundleIdentifier ?? AppIdentity.bundleIdentifier)
     guard let languages = domain?[key] as? [String], !languages.isEmpty else { return .system }
     return selection(for: languages)
   }

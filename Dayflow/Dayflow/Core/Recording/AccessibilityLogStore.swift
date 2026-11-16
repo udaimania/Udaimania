@@ -80,7 +80,7 @@ final class AccessibilityLogStore: @unchecked Sendable {
   private init() {
     let appSupport = FileManager.default.urls(
       for: .applicationSupportDirectory, in: .userDomainMask)[0]
-    rootURL = appSupport.appendingPathComponent("Dayflow/accessibility", isDirectory: true)
+    rootURL = appSupport.appendingPathComponent("\(AppIdentity.storageDirectoryName)/accessibility", isDirectory: true)
 
     let timeFormatter = ISO8601DateFormatter()
     timeFormatter.formatOptions = [.withInternetDateTime, .withFractionalSeconds]

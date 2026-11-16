@@ -38,3 +38,6 @@ tools/dayflow-cli/.build/
 # Research and analysis notes (local only)
 reports/
 research_notes/
+
+# Isolated development helper build
+tools/dayflow-cli/.build-development/

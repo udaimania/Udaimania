@@ -8,6 +8,7 @@ enum CLIAutoUpdater {
 
   /// Updates only the CLIs the user has routed as primary or backup provider.
   static func updateProviderCLIs() {
+    guard !AppIdentity.isDevelopment else { return }
     guard let routing = try? LLMProviderRoutingStore.load() else { return }
     let providers = [routing.primary, routing.secondary]
     let tools = [ChatCLITool.codex, ChatCLITool.claude].filter {

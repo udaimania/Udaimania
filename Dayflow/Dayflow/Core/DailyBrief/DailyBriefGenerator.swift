@@ -369,7 +369,7 @@ enum DailyBriefGenerator {
   /// so Claude's permission rule for the candidates folder matches the files it reads.
   private static func makeRunDirectory(for day: String) throws -> URL {
     let base = FileManager.default.temporaryDirectory
-      .appendingPathComponent("dayflow-daily-brief", isDirectory: true)
+      .appendingPathComponent("\(AppIdentity.agentServerName)-daily-brief", isDirectory: true)
       .appendingPathComponent(day, isDirectory: true)
     let fileManager = FileManager.default
     try? fileManager.removeItem(at: base)
@@ -646,7 +646,7 @@ enum DailyBriefGenerator {
       tools = "Read," + tools
       allowedTools.append("Read(/\(candidatesDirectory.path)/**)")
     }
-    allowedTools += dayflowReadTools.map { "mcp__dayflow__\($0)" }
+    allowedTools += dayflowReadTools.map { "mcp__\(AppIdentity.agentServerName)__\($0)" }
 
     return ClaudeCLIStructuredOutputOptions(
       tools: tools,
@@ -667,7 +667,7 @@ enum DailyBriefGenerator {
     guard FileManager.default.isExecutableFile(atPath: cliPath) else { return nil }
 
     let server: [String: Any] = ["command": cliPath, "args": ["mcp"]]
-    let config: [String: Any] = ["mcpServers": ["dayflow": server]]
+    let config: [String: Any] = ["mcpServers": [AppIdentity.agentServerName: server]]
     let url = runDirectory.appendingPathComponent("\(part.rawValue)_mcp.json")
     do {
       try jsonString(config).write(to: url, atomically: true, encoding: .utf8)
@@ -709,11 +709,11 @@ enum DailyBriefGenerator {
 
     # Dayflow's own server: everything except the tools that change data.
     case "$lower" in
-      mcp__dayflow__create_category | mcp__dayflow__delete_category | \
-      mcp__dayflow__update_category | mcp__dayflow__delete_activity | \
-      mcp__dayflow__update_activity | mcp__dayflow__set_day_goal)
+      mcp__\#(AppIdentity.agentServerName)__create_category | mcp__\#(AppIdentity.agentServerName)__delete_category | \
+      mcp__\#(AppIdentity.agentServerName)__update_category | mcp__\#(AppIdentity.agentServerName)__delete_activity | \
+      mcp__\#(AppIdentity.agentServerName)__update_activity | mcp__\#(AppIdentity.agentServerName)__set_day_goal)
         deny ;;
-      mcp__dayflow__*)
+      mcp__\#(AppIdentity.agentServerName)__*)
         allow ;;
     esac
 

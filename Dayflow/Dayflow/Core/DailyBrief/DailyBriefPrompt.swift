@@ -120,7 +120,7 @@ enum DailyBriefPrompt {
 
   /// Dayflow's tools and the user's connectors, described the same way in both prompts.
   private static let dayflowAndConnectorTools = """
-    - **Dayflow tools** (`mcp__dayflow__*`): read older history, such as the last 2 weeks of timeline, search
+    - **Dayflow tools** (`mcp__\(AppIdentity.agentServerName)__*`): read older history, such as the last 2 weeks of timeline, search
       for an activity, or get the time breakdown. Use them to tell a one-off from an ongoing project.
     - **Their connectors** (whatever tools are available besides Dayflow's, e.g. Slack, Linear, Gmail,
       Notion, Google Drive): read only. You can search and read; you cannot send, post, create, or edit

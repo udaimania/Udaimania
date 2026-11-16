@@ -291,7 +291,7 @@ struct DayflowApp: App {
   private let updaterManager = UpdaterManager.shared
 
   var body: some Scene {
-    Window("Dayflow", id: "main") {
+    Window(AppIdentity.displayName, id: "main") {
       ZStack {
         // Main app UI or onboarding with entrance animation
         Group {

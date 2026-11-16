@@ -18,13 +18,13 @@
                BlueprintIdentifier = "C4C1D2A02DB56805007D5A55"
                BuildableName = "Dayflow.app"
                BlueprintName = "Dayflow"
-               ReferencedContainer = "container:Dayflow.xcodeproj">
+               ReferencedContainer = "container:Udaimania.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Development"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
@@ -38,24 +38,13 @@
                BlueprintIdentifier = "C4C1D2B12DB56806007D5A55"
                BuildableName = "DayflowTests.xctest"
                BlueprintName = "DayflowTests"
-               ReferencedContainer = "container:Dayflow.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO"
-            parallelizable = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C4C1D2BB2DB56806007D5A55"
-               BuildableName = "DayflowUITests.xctest"
-               BlueprintName = "DayflowUITests"
-               ReferencedContainer = "container:Dayflow.xcodeproj">
+               ReferencedContainer = "container:Udaimania.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "Development"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -71,12 +60,12 @@
             BlueprintIdentifier = "C4C1D2A02DB56805007D5A55"
             BuildableName = "Dayflow.app"
             BlueprintName = "Dayflow"
-            ReferencedContainer = "container:Dayflow.xcodeproj">
+            ReferencedContainer = "container:Udaimania.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
    <ProfileAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Development"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -88,15 +77,15 @@
             BlueprintIdentifier = "C4C1D2A02DB56805007D5A55"
             BuildableName = "Dayflow.app"
             BlueprintName = "Dayflow"
-            ReferencedContainer = "container:Dayflow.xcodeproj">
+            ReferencedContainer = "container:Udaimania.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Development">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Development"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>

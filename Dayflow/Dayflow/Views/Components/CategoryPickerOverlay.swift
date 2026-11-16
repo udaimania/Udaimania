@@ -118,7 +118,7 @@ struct CategoryPickerOverlay: View {
     let baseFont = Font.custom("Figtree", size: 12)
     let baseColor = theme.isDark ? theme.textTertiary : Color(red: 0.39, green: 0.35, blue: 0.33)
     let linkColor = theme.isDark ? theme.accentText : Color(red: 1.0, green: 0.4, blue: 0.0)
-    let linkURL = URL(string: "dayflow://category-editor")!
+    let linkURL = URL(string: "\(AppIdentity.urlScheme)://category-editor")!
 
     var intro = AttributedString(
       String(

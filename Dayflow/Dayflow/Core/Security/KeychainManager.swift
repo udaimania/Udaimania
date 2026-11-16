@@ -11,7 +11,7 @@ final class KeychainManager {
 
   static let shared = KeychainManager()
 
-  private let servicePrefix = "com.teleportlabs.dayflow.apikeys"
+  private let servicePrefix = AppIdentity.apiKeyServicePrefix
   private let queue = DispatchQueue(label: "com.teleportlabs.dayflow.keychain", qos: .userInitiated)
 
   private init() {}

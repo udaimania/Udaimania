@@ -62,7 +62,7 @@ fi
 
 if [[ ! -f "$PLIST" ]]; then err "Info.plist not found at $PLIST"; fi
 
-PBP="$REPO_ROOT/Dayflow/Dayflow.xcodeproj/project.pbxproj"
+PBP="$REPO_ROOT/Dayflow/Udaimania.xcodeproj/project.pbxproj"
 
 get_plist() { /usr/libexec/PlistBuddy -c "Print :$1" "$PLIST" 2>/dev/null || true; }
 set_plist() {

@@ -49,7 +49,7 @@ enum AgentClientRegistration {
   /// The JSON snippet for clients we don't integrate with directly.
   static var manualConfigSnippet: String {
     """
-    "dayflow": {
+    "\(AppIdentity.agentServerName)": {
       "command": "\(cliPath)",
       "args": ["mcp"]
     }
@@ -126,13 +126,13 @@ enum AgentClientRegistration {
       guard let data = try? JSONSerialization.data(withJSONObject: config),
         let url = URL(
           string:
-            "cursor://anysphere.cursor-deeplink/mcp/install?name=dayflow&config=\(data.base64EncodedString())"
+            "cursor://anysphere.cursor-deeplink/mcp/install?name=\(AppIdentity.agentServerName)&config=\(data.base64EncodedString())"
         )
       else { return .failed("Could not build the Cursor install link.") }
       NSWorkspace.shared.open(url)
       return .openedInstaller
     case .vsCode:
-      let config: [String: Any] = ["name": "dayflow", "command": cliPath, "args": ["mcp"]]
+      let config: [String: Any] = ["name": AppIdentity.agentServerName, "command": cliPath, "args": ["mcp"]]
       guard let data = try? JSONSerialization.data(withJSONObject: config),
         let encoded = String(data: data, encoding: .utf8)?.addingPercentEncoding(
           withAllowedCharacters: .alphanumerics),
@@ -160,10 +160,10 @@ enum AgentClientRegistration {
       let config = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
       let servers = config["mcpServers"] as? [String: Any]
     else { return nil }
-    return servers["dayflow"] as? [String: Any]
+    return servers[AppIdentity.agentServerName] as? [String: Any]
   }
 
-  /// Adds or updates only the "dayflow" key under mcpServers, preserving
+  /// Adds or updates only this build's server key under mcpServers, preserving
   /// everything else in the file byte-for-byte semantically.
   private static func writeDayflowEntry(configAt url: URL) -> RegistrationResult {
     var config: [String: Any] = [:]
@@ -176,7 +176,7 @@ enum AgentClientRegistration {
     }
 
     var servers = config["mcpServers"] as? [String: Any] ?? [:]
-    servers["dayflow"] = ["type": "stdio", "command": cliPath, "args": ["mcp"]]
+    servers[AppIdentity.agentServerName] = ["type": "stdio", "command": cliPath, "args": ["mcp"]]
     config["mcpServers"] = servers
 
     do {
@@ -195,9 +195,9 @@ enum AgentClientRegistration {
     guard let data = try? Data(contentsOf: url),
       var config = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
       var servers = config["mcpServers"] as? [String: Any],
-      servers["dayflow"] != nil
+      servers[AppIdentity.agentServerName] != nil
     else { return }
-    servers.removeValue(forKey: "dayflow")
+    servers.removeValue(forKey: AppIdentity.agentServerName)
     config["mcpServers"] = servers
     if let updated = try? JSONSerialization.data(
       withJSONObject: config, options: [.prettyPrinted, .sortedKeys])
@@ -229,16 +229,16 @@ enum AgentClientRegistration {
   // MARK: - Terminal command
 
   static var manualTerminalInstallCommand: String {
-    "sudo mkdir -p /usr/local/bin && sudo ln -sf \(LoginShellRunner.shellEscape(cliPath)) /usr/local/bin/dayflow"
+    "sudo mkdir -p /usr/local/bin && sudo ln -sf \(LoginShellRunner.shellEscape(cliPath)) \(LoginShellRunner.shellEscape(AppIdentity.terminalLinkPath))"
   }
 
   static var terminalCommandInstalled: Bool {
-    (try? FileManager.default.destinationOfSymbolicLink(atPath: "/usr/local/bin/dayflow"))
+    (try? FileManager.default.destinationOfSymbolicLink(atPath: AppIdentity.terminalLinkPath))
       == cliPath
   }
 
   static func installTerminalCommand() -> String? {
-    let linkPath = "/usr/local/bin/dayflow"
+    let linkPath = AppIdentity.terminalLinkPath
     let fileManager = FileManager.default
     do {
       if fileManager.fileExists(atPath: linkPath) {

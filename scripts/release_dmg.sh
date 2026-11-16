@@ -45,7 +45,7 @@ trap 'rm -rf "${SANITIZED_DIR}"' EXIT
 SANITIZED_APP="${SANITIZED_DIR}/${APP_NAME}.app"
 
 # Fixed project location inside repo
-PROJECT_PATH=${PROJECT_PATH:-Dayflow/Dayflow.xcodeproj}
+PROJECT_PATH=${PROJECT_PATH:-Dayflow/Udaimania.xcodeproj}
 if [[ ! -d "$PROJECT_PATH" ]]; then
   echo "ERROR: Xcode project not found at $PROJECT_PATH" >&2
   exit 1
