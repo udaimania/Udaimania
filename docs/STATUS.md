@@ -93,3 +93,18 @@ Codex provider was restored and its in-app connection test passed. The reason th
 provider changed was not established; verify the active provider after future test
 runs as well as checking permissions and saved frames. Connection success does not
 by itself verify a newly generated timeline card. Phone work remains paused.
+
+## Original Dayflow removed
+
+At the user's request, the original `/Applications/Dayflow.app` was quit and moved
+to Trash after disabling its launch-at-login setting. The obsolete
+`~/Applications/Dayflow Dev.app` shortcut was also moved to Trash; it pointed to
+Udaimania and was not a separate app. Original Dayflow recordings and preferences
+were retained. Udaimania's app, development identity, and data were left intact.
+
+Verification found no original Dayflow process, while Udaimania remained running
+and saved a new frame at 22:45:52 on 15 November (local time). The repository's
+`LICENSE` matches `upstream/main:LICENSE` byte for byte, including the full MIT
+notice and `Copyright (c) 2025 Jerry Liu`; README source attribution is retained.
+No application code or signed bundle changed, so no rebuild was needed. Continue
+development using `~/Applications/Udaimania.app`; phone work remains paused.
