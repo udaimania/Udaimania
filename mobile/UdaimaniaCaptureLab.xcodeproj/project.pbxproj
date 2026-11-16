@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+};
+	"objectVersion" = 56;
+	"objects" = {
+	"D777903FCC50E5BCB21321DB" = {
+	"isa" = "PBXFileReference";
+	"lastKnownFileType" = "sourcecode.swift";
+	"path" = "CaptureLab/CaptureEngine.swift";
+	"sourceTree" = "<group>";
+};
+	"A867A9580645AE8A9FC428BF" = {
+	"isa" = "PBXFileReference";
+	"lastKnownFileType" = "sourcecode.swift";
+	"path" = "CaptureLab/CaptureLabApp.swift";
+	"sourceTree" = "<group>";
+};
+	"DB4E6A75E3B5599D189F711B" = {
+	"isa" = "PBXFileReference";
+	"lastKnownFileType" = "sourcecode.swift";
+	"path" = "CaptureLab/LabStore.swift";
+	"sourceTree" = "<group>";
+};
+	"27158D3A205B8C6C5E284464" = {
+	"isa" = "PBXFileReference";
+	"lastKnownFileType" = "sourcecode.swift";
+	"path" = "CaptureLab/UsageView.swift";
+	"sourceTree" = "<group>";
+};
+	"4FE4A9395CEC18D3CCCECA6A" = {
+	"isa" = "PBXFileReference";
+	"lastKnownFileType" = "sourcecode.swift";
+	"path" = "UsageReport/UsageReport.swift";
+	"sourceTree" = "<group>";
+};
+	"ABF41122F39ADC04934ED2FA" = {
+	"isa" = "PBXFileReference";
+	"lastKnownFileType" = "sourcecode.swift";
+	"path" = "TestScenes/TestScenesApp.swift";
+	"sourceTree" = "<group>";
+};
+	"8E0205CD89BF271E3726B26F" = {
+	"isa" = "PBXFileReference";
+	"lastKnownFileType" = "text.xcconfig";
+	"path" = "Config/Base.xcconfig";
+	"sourceTree" = "<group>";
+};
+	"BC4A71180870F7945155FBB0" = {
+	"isa" = "XCLocalSwiftPackageReference";
+	"relativePath" = "CaptureCore";
+};
+	"ACA88C4455B2B4A418513A5C" = {
+	"isa" = "PBXFileReference";
+	"explicitFileType" = "wrapper.application";
+	"includeInIndex" = 0;
+	"path" = "UdaimaniaCaptureLab.app";
+	"sourceTree" = "BUILT_PRODUCTS_DIR";
+};
+	"CB8229A78EE7D88D3656D7C4" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "D777903FCC50E5BCB21321DB";
+};
+	"0EBE143BE5DE807A4A7C017F" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "A867A9580645AE8A9FC428BF";
+};
+	"BA83F352BF95C6DF7F4EFC9A" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "DB4E6A75E3B5599D189F711B";
+};
+	"6CACF67D03564D4B478C9695" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "27158D3A205B8C6C5E284464";
+};
+	"E746D37817C42247868B4DA4" = {
+	"isa" = "PBXSourcesBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ("CB8229A78EE7D88D3656D7C4", "0EBE143BE5DE807A4A7C017F", "BA83F352BF95C6DF7F4EFC9A", "6CACF67D03564D4B478C9695");
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"137F0490C6F1C0DCB567503E" = {
+	"isa" = "XCSwiftPackageProductDependency";
+	"package" = "BC4A71180870F7945155FBB0";
+	"productName" = "CaptureCore";
+};
+	"425309A2D93204CE60F26DCC" = {
+	"isa" = "PBXBuildFile";
+	"productRef" = "137F0490C6F1C0DCB567503E";
+};
+	"EE2780C48170297991C9A243" = {
+	"isa" = "PBXFrameworksBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ("425309A2D93204CE60F26DCC");
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"BA03AE6206A5171D4283D24B" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaCaptureLab";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab";
+	"INFOPLIST_FILE" = "Config/App-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Lab";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+	"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf";
+};
+	"name" = "Debug";
+};
+	"3EBEA0E9BDB8992C8995A1E4" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaCaptureLab";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab";
+	"INFOPLIST_FILE" = "Config/App-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Lab";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+	"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+};
+	"name" = "Release";
+};
+	"6B0574CB5E99B32FACE1BA44" = {
+	"isa" = "XCConfigurationList";
+	"buildConfigurations" = ("BA03AE6206A5171D4283D24B", "3EBEA0E9BDB8992C8995A1E4");
+	"defaultConfigurationIsVisible" = 0;
+	"defaultConfigurationName" = "Debug";
+};
+	"87175046B229918949A6C3C4" = {
+	"isa" = "PBXNativeTarget";
+	"buildConfigurationList" = "6B0574CB5E99B32FACE1BA44";
+	"buildPhases" = ("E746D37817C42247868B4DA4", "EE2780C48170297991C9A243");
+	"buildRules" = ();
+	"dependencies" = ();
+	"name" = "UdaimaniaCaptureLab";
+	"packageProductDependencies" = ("137F0490C6F1C0DCB567503E");
+	"productName" = "UdaimaniaCaptureLab";
+	"productReference" = "ACA88C4455B2B4A418513A5C";
+	"productType" = "com.apple.product-type.application";
+};
+	"D1D49FA3BA86DC8EFF5685F5" = {
+	"isa" = "PBXFileReference";
+	"explicitFileType" = "wrapper.application";
+	"includeInIndex" = 0;
+	"path" = "UdaimaniaUsageLab.app";
+	"sourceTree" = "BUILT_PRODUCTS_DIR";
+};
+	"5F7E8424D50AEB6B939CD419" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "D777903FCC50E5BCB21321DB";
+};
+	"9ED2E73E15693A2BF62E1723" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "A867A9580645AE8A9FC428BF";
+};
+	"EFC7F1C0E2E3E1236C6CC4E3" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "DB4E6A75E3B5599D189F711B";
+};
+	"BDAC948307D118D80F94E844" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "27158D3A205B8C6C5E284464";
+};
+	"A66FDAFE64B454BD273E39A2" = {
+	"isa" = "PBXSourcesBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ("5F7E8424D50AEB6B939CD419", "9ED2E73E15693A2BF62E1723", "EFC7F1C0E2E3E1236C6CC4E3", "BDAC948307D118D80F94E844");
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"FCBF92370799BAC493F3880D" = {
+	"isa" = "XCSwiftPackageProductDependency";
+	"package" = "BC4A71180870F7945155FBB0";
+	"productName" = "CaptureCore";
+};
+	"B56E24979F31490AFFAA3C7E" = {
+	"isa" = "PBXBuildFile";
+	"productRef" = "FCBF92370799BAC493F3880D";
+};
+	"E91684ACB78155DAD80A2473" = {
+	"isa" = "PBXFrameworksBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ("B56E24979F31490AFFAA3C7E");
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"BE263BB59D4C33E2FDF2C939" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaUsageLab";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab.screentime";
+	"INFOPLIST_FILE" = "Config/App-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Usage";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+	"CODE_SIGN_ENTITLEMENTS" = "Config/ScreenTime.entitlements";
+	"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) SCREEN_TIME_ENABLED";
+	"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf";
+};
+	"name" = "Debug";
+};
+	"7D733EBCBD442EA09F076315" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaUsageLab";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab.screentime";
+	"INFOPLIST_FILE" = "Config/App-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Usage";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+	"CODE_SIGN_ENTITLEMENTS" = "Config/ScreenTime.entitlements";
+	"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) SCREEN_TIME_ENABLED";
+	"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+};
+	"name" = "Release";
+};
+	"8A76D31AB9894E320F135286" = {
+	"isa" = "XCConfigurationList";
+	"buildConfigurations" = ("BE263BB59D4C33E2FDF2C939", "7D733EBCBD442EA09F076315");
+	"defaultConfigurationIsVisible" = 0;
+	"defaultConfigurationName" = "Debug";
+};
+	"98A1C95DB992F6FCEFDFC0E8" = {
+	"isa" = "PBXNativeTarget";
+	"buildConfigurationList" = "8A76D31AB9894E320F135286";
+	"buildPhases" = ("A66FDAFE64B454BD273E39A2", "E91684ACB78155DAD80A2473", "D60612CEED311E057B56A28E");
+	"buildRules" = ();
+	"dependencies" = ("0486A7B1ACD56811CEFC37F6");
+	"name" = "UdaimaniaUsageLab";
+	"packageProductDependencies" = ("FCBF92370799BAC493F3880D");
+	"productName" = "UdaimaniaUsageLab";
+	"productReference" = "D1D49FA3BA86DC8EFF5685F5";
+	"productType" = "com.apple.product-type.application";
+};
+	"6E87BA7C4D9CA24473B4BE96" = {
+	"isa" = "PBXFileReference";
+	"explicitFileType" = "wrapper.application";
+	"includeInIndex" = 0;
+	"path" = "UdaimaniaTestScenes.app";
+	"sourceTree" = "BUILT_PRODUCTS_DIR";
+};
+	"BE7589B8AA877F434C77CBDE" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "ABF41122F39ADC04934ED2FA";
+};
+	"A3DAD914E4C5EDF0AEF8D9DD" = {
+	"isa" = "PBXSourcesBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ("BE7589B8AA877F434C77CBDE");
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"C19C22A66EBB33C7BAFEDFE2" = {
+	"isa" = "XCSwiftPackageProductDependency";
+	"package" = "BC4A71180870F7945155FBB0";
+	"productName" = "CaptureCore";
+};
+	"E33C79D8D1B3C6E3083764F5" = {
+	"isa" = "PBXBuildFile";
+	"productRef" = "C19C22A66EBB33C7BAFEDFE2";
+};
+	"18B801C0A211C22E8CB2C5E8" = {
+	"isa" = "PBXFrameworksBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ("E33C79D8D1B3C6E3083764F5");
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"8C7C06644699D9E169D1835E" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaTestScenes";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab.fixtures";
+	"INFOPLIST_FILE" = "Config/Fixture-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Lab";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+	"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf";
+};
+	"name" = "Debug";
+};
+	"E77C7CEC198ABF88D3D82C9F" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaTestScenes";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab.fixtures";
+	"INFOPLIST_FILE" = "Config/Fixture-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Lab";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks");
+	"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+};
+	"name" = "Release";
+};
+	"262E180D839B9001939C11EA" = {
+	"isa" = "XCConfigurationList";
+	"buildConfigurations" = ("8C7C06644699D9E169D1835E", "E77C7CEC198ABF88D3D82C9F");
+	"defaultConfigurationIsVisible" = 0;
+	"defaultConfigurationName" = "Debug";
+};
+	"724C676096D398CE520DD317" = {
+	"isa" = "PBXNativeTarget";
+	"buildConfigurationList" = "262E180D839B9001939C11EA";
+	"buildPhases" = ("A3DAD914E4C5EDF0AEF8D9DD", "18B801C0A211C22E8CB2C5E8");
+	"buildRules" = ();
+	"dependencies" = ();
+	"name" = "UdaimaniaTestScenes";
+	"packageProductDependencies" = ("C19C22A66EBB33C7BAFEDFE2");
+	"productName" = "UdaimaniaTestScenes";
+	"productReference" = "6E87BA7C4D9CA24473B4BE96";
+	"productType" = "com.apple.product-type.application";
+};
+	"24A227FC01B01063385DB13D" = {
+	"isa" = "PBXFileReference";
+	"explicitFileType" = "wrapper.app-extension";
+	"includeInIndex" = 0;
+	"path" = "UdaimaniaUsageReport.appex";
+	"sourceTree" = "BUILT_PRODUCTS_DIR";
+};
+	"8BE0CAC1A34FE21BCE266035" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "4FE4A9395CEC18D3CCCECA6A";
+};
+	"6F1E6B157414E4768DAE0C11" = {
+	"isa" = "PBXSourcesBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ("8BE0CAC1A34FE21BCE266035");
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"125C3CC058C95F790758DF10" = {
+	"isa" = "PBXFrameworksBuildPhase";
+	"buildActionMask" = 2147483647;
+	"files" = ();
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"A590C73CF8EE7F1C8761A67B" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaUsageReport";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab.screentime.report";
+	"INFOPLIST_FILE" = "Config/Report-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Usage";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks");
+	"APPLICATION_EXTENSION_API_ONLY" = "YES";
+	"SKIP_INSTALL" = "YES";
+	"CODE_SIGN_ENTITLEMENTS" = "Config/ScreenTime.entitlements";
+	"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) SCREEN_TIME_ENABLED";
+	"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf";
+};
+	"name" = "Debug";
+};
+	"515BD11923CB1B129FD54FD7" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"SDKROOT" = "iphoneos";
+	"IPHONEOS_DEPLOYMENT_TARGET" = "27.0";
+	"SWIFT_VERSION" = "5.0";
+	"CLANG_ENABLE_MODULES" = "YES";
+	"SWIFT_STRICT_CONCURRENCY" = "complete";
+	"TARGETED_DEVICE_FAMILY" = "1";
+	"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+	"CODE_SIGN_STYLE" = "Automatic";
+	"DEVELOPMENT_TEAM" = "$(CAPTURE_LAB_TEAM)";
+	"CURRENT_PROJECT_VERSION" = "1";
+	"MARKETING_VERSION" = "0.1.0";
+	"GENERATE_INFOPLIST_FILE" = "NO";
+	"ENABLE_USER_SCRIPT_SANDBOXING" = "YES";
+	"PRODUCT_NAME" = "UdaimaniaUsageReport";
+	"PRODUCT_BUNDLE_IDENTIFIER" = "com.udaimania.capturelab.screentime.report";
+	"INFOPLIST_FILE" = "Config/Report-Info.plist";
+	"CAPTURE_LAB_DISPLAY_NAME" = "Udaimania Usage";
+	"LD_RUNPATH_SEARCH_PATHS" = ("$(inherited)", "@executable_path/Frameworks", "@executable_path/../../Frameworks");
+	"APPLICATION_EXTENSION_API_ONLY" = "YES";
+	"SKIP_INSTALL" = "YES";
+	"CODE_SIGN_ENTITLEMENTS" = "Config/ScreenTime.entitlements";
+	"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "$(inherited) SCREEN_TIME_ENABLED";
+	"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+};
+	"name" = "Release";
+};
+	"09CA71B52E16060A8DE49339" = {
+	"isa" = "XCConfigurationList";
+	"buildConfigurations" = ("A590C73CF8EE7F1C8761A67B", "515BD11923CB1B129FD54FD7");
+	"defaultConfigurationIsVisible" = 0;
+	"defaultConfigurationName" = "Debug";
+};
+	"37DF8998391FA53B29DAD2E6" = {
+	"isa" = "PBXNativeTarget";
+	"buildConfigurationList" = "09CA71B52E16060A8DE49339";
+	"buildPhases" = ("6F1E6B157414E4768DAE0C11", "125C3CC058C95F790758DF10");
+	"buildRules" = ();
+	"dependencies" = ();
+	"name" = "UdaimaniaUsageReport";
+	"packageProductDependencies" = ();
+	"productName" = "UdaimaniaUsageReport";
+	"productReference" = "24A227FC01B01063385DB13D";
+	"productType" = "com.apple.product-type.app-extension";
+};
+	"1166EE8D3D279E3C1912AA2D" = {
+	"isa" = "PBXContainerItemProxy";
+	"containerPortal" = "244210E48437B6556980A702";
+	"proxyType" = 1;
+	"remoteGlobalIDString" = "37DF8998391FA53B29DAD2E6";
+	"remoteInfo" = "UdaimaniaUsageReport";
+};
+	"0486A7B1ACD56811CEFC37F6" = {
+	"isa" = "PBXTargetDependency";
+	"target" = "37DF8998391FA53B29DAD2E6";
+	"targetProxy" = "1166EE8D3D279E3C1912AA2D";
+};
+	"2897147DA90731A47BEDA547" = {
+	"isa" = "PBXBuildFile";
+	"fileRef" = "24A227FC01B01063385DB13D";
+	"settings" = {
+	"ATTRIBUTES" = ("RemoveHeadersOnCopy");
+};
+};
+	"D60612CEED311E057B56A28E" = {
+	"isa" = "PBXCopyFilesBuildPhase";
+	"buildActionMask" = 2147483647;
+	"dstPath" = "";
+	"dstSubfolderSpec" = 13;
+	"files" = ("2897147DA90731A47BEDA547");
+	"name" = "Embed report extension";
+	"runOnlyForDeploymentPostprocessing" = 0;
+};
+	"0A3E27B8CA818264D75C8D81" = {
+	"isa" = "PBXGroup";
+	"children" = ("ACA88C4455B2B4A418513A5C", "D1D49FA3BA86DC8EFF5685F5", "6E87BA7C4D9CA24473B4BE96", "24A227FC01B01063385DB13D");
+	"name" = "Products";
+	"sourceTree" = "<group>";
+};
+	"19F479106CE8C3BA8C106518" = {
+	"isa" = "PBXGroup";
+	"children" = ("D777903FCC50E5BCB21321DB", "A867A9580645AE8A9FC428BF", "DB4E6A75E3B5599D189F711B", "27158D3A205B8C6C5E284464", "4FE4A9395CEC18D3CCCECA6A", "ABF41122F39ADC04934ED2FA", "8E0205CD89BF271E3726B26F", "0A3E27B8CA818264D75C8D81");
+	"sourceTree" = "<group>";
+};
+	"73EBF6644258C120893E685D" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"ALWAYS_SEARCH_USER_PATHS" = "NO";
+	"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf";
+};
+	"name" = "Debug";
+};
+	"0B0C687DF8B6B8DC790B519C" = {
+	"isa" = "XCBuildConfiguration";
+	"baseConfigurationReference" = "8E0205CD89BF271E3726B26F";
+	"buildSettings" = {
+	"ALWAYS_SEARCH_USER_PATHS" = "NO";
+	"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+	"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+};
+	"name" = "Release";
+};
+	"76F8DEC3DFE0BDB465198890" = {
+	"isa" = "XCConfigurationList";
+	"buildConfigurations" = ("73EBF6644258C120893E685D", "0B0C687DF8B6B8DC790B519C");
+	"defaultConfigurationIsVisible" = 0;
+	"defaultConfigurationName" = "Debug";
+};
+	"244210E48437B6556980A702" = {
+	"isa" = "PBXProject";
+	"attributes" = {
+	"LastUpgradeCheck" = "2720";
+	"BuildIndependentTargetsInParallel" = "YES";
+};
+	"buildConfigurationList" = "76F8DEC3DFE0BDB465198890";
+	"compatibilityVersion" = "Xcode 14.0";
+	"developmentRegion" = "en";
+	"hasScannedForEncodings" = 0;
+	"knownRegions" = ("en", "Base");
+	"mainGroup" = "19F479106CE8C3BA8C106518";
+	"productRefGroup" = "0A3E27B8CA818264D75C8D81";
+	"projectDirPath" = "";
+	"projectRoot" = "";
+	"targets" = ("87175046B229918949A6C3C4", "98A1C95DB992F6FCEFDFC0E8", "724C676096D398CE520DD317", "37DF8998391FA53B29DAD2E6");
+	"packageReferences" = ("BC4A71180870F7945155FBB0");
+};
+};
+	"rootObject" = "244210E48437B6556980A702";
+}

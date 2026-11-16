@@ -1,0 +1,9 @@
+Config/Local.xcconfig
+CaptureCore/.build/
+CaptureCore/.swiftpm/
+results/
+*.mobileprovision
+*.p12
+*.key
+*.token
+__pycache__/

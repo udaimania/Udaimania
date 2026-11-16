@@ -1,0 +1,3 @@
+// Set only your own team in Local.xcconfig. Never use upstream Dayflow's signing team.
+CAPTURE_LAB_TEAM =
+#include? "Local.xcconfig"
