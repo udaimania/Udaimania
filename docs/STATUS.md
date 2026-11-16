@@ -69,3 +69,27 @@ native Udaimania text instead of upstream branded video.
 Begin the next Mac design change from a specific Figma frame. Read
 [DEVELOPMENT.md](DEVELOPMENT.md) for commands and stable identities. Keep the phone
 paused.
+
+## Capture-permission follow-up
+
+The chat is now in Udaimania Apps (verified in the project tools). After the rename,
+the app opened its existing timeline but both Screen Recording and Accessibility
+showed Grant. Capture was stopped by the screen-recording preflight check. The old
+and new binaries were ad hoc signed; keeping the bundle ID alone did not retain
+privacy authorization. The user authorized restoring both permissions and Mac
+capture. Stable Apple Development signing now uses this Mac's existing certificate,
+with personal settings kept in ignored `LocalSigning.xcconfig` and a portable
+example committed to the repository. App/helper signature verification passed;
+the signed desktop suite passed **241 tests, zero failures**.
+
+The stale macOS entries were replaced with the current signed build. After a full
+restart, both permissions showed **Granted** and capture resumed. Read-only database
+checks confirmed fresh saved frames advancing from ID 1935 at 22:37:32 to ID 1949
+at 22:39:52 on 15 November (local time); sampled new files existed and were nonempty.
+The pre-fix last capture was at 21:34:31. Historical recordings were retained.
+
+Provider settings also showed an unconfigured Gemini primary. The prior ChatGPT /
+Codex provider was restored and its in-app connection test passed. The reason the
+provider changed was not established; verify the active provider after future test
+runs as well as checking permissions and saved frames. Connection success does not
+by itself verify a newly generated timeline card. Phone work remains paused.

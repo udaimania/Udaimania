@@ -16,8 +16,16 @@ The fork is `https://github.com/udaimania/Udaimania`; the working branch is
 3. Select the **Udaimania** scheme and **My Mac**, then press **Command-R**.
 4. Edit the source and press **Command-R** again to rebuild and relaunch.
 
-The scheme uses the Development configuration with ad hoc signing. No upstream
-signing team or paid Apple Developer membership is needed for this local Mac build.
+The scheme uses the Development configuration. This Mac uses its existing
+Apple Development certificate through ignored local signing configuration. A new
+checkout falls back to ad hoc signing; no upstream signing team is configured.
+
+Copy `macos/Config/LocalSigning.xcconfig.example` to `LocalSigning.xcconfig` and
+set your own development team to use stable signing in Xcode and the build script.
+Keep that file local. The application and embedded helper use the same identity.
+Ad hoc builds can lose Screen Recording and Accessibility authorization after a
+rebuild, even when their bundle ID is unchanged. Apple documents the reason in
+[TN3127](https://developer.apple.com/documentation/technotes/tn3127-inside-code-signing-requirements/).
 
 From the repository root:
 
@@ -60,7 +68,8 @@ values for the app and helper. `UDAIMANIA_DEVELOPMENT` selects the development
 identity. Databases, recordings, prompts, sockets, and telemetry queues use the
 selected app's data directory. Development identifiers containing Dayflow are
 intentional compatibility values: changing them would lose access to existing
-settings, credentials, permissions, and recordings. They do not select the
+settings, credentials, and recordings. These IDs alone do not preserve macOS
+privacy grants: stable code signing is also needed. They do not select the
 original Dayflow app's separate data directory.
 
 Existing development helper registrations can recognize the prior `dayflow`
@@ -70,8 +79,12 @@ See [NAMING.md](NAMING.md) before changing persisted identifiers.
 
 Development has no upstream backend or analytics configuration, and it does not
 auto-update external AI CLIs. Configure the chosen ChatGPT, Claude, Gemini, or
-local-model provider in the app. Existing onboarding and permissions are retained
-through the stable development identity; a fresh install needs its own onboarding.
+local-model provider in the app. Existing onboarding data is retained through the
+development bundle ID. After a signing-identity change, check Settings → Permissions, grant Screen Recording
+and Accessibility to the current build, restart it, and verify new frames before
+claiming that capture works. A fresh install needs its own onboarding.
+After a test run, also check the selected provider and its connection test; a
+recording can be saved while timeline-card processing is unavailable.
 
 ## Release boundaries
 

@@ -1,0 +1,4 @@
+// Copy to LocalSigning.xcconfig (ignored by Git).
+// Use the same Apple Development certificate across local rebuilds.
+UDAIMANIA_DEVELOPMENT_SIGNING_IDENTITY = Apple Development
+UDAIMANIA_DEVELOPMENT_TEAM = YOURTEAMID

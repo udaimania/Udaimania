@@ -4,3 +4,8 @@ UDAIMANIA_BACKEND_URL =
 POSTHOG_API_KEY =
 
 #include? "LocalSecrets.xcconfig"
+
+// Portable fallback; use a stable local certificate to retain macOS permissions.
+UDAIMANIA_DEVELOPMENT_SIGNING_IDENTITY = -
+UDAIMANIA_DEVELOPMENT_TEAM =
+#include? "LocalSigning.xcconfig"

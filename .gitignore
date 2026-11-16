@@ -44,3 +44,6 @@ tools/udaimania-cli/.build-development/
 
 # Repository guidance is versioned
 !AGENTS.md
+
+# Per-Mac signing identity; never publish personal team configuration
+macos/Config/LocalSigning.xcconfig

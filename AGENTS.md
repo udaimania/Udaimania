@@ -23,7 +23,8 @@ Verify current Git status and preserve existing uncommitted work.
 Use Udaimania for product text and Swift types/modules; use udaimania for commands
 and package paths. Retain upstream MIT attribution. Do not blindly rename
 persisted identifiers: legacy development bundle, storage, keychain, URL, MCP,
-and preference values preserve existing local data and permissions.
+and preference values preserve existing local data. Privacy grants also depend
+on stable code signing; verify actual permissions and fresh capture after rebuilds.
 
 ## Desktop workflow
 
@@ -38,6 +39,11 @@ build or test from the repository root:
 The script's app is under
 `build/DerivedData/Udaimania/Build/Products/Development/Udaimania.app`.
 The `~/Applications/Udaimania.app` shortcut on this Mac points there.
+This Mac uses an Apple Development certificate via ignored
+`macos/Config/LocalSigning.xcconfig`. Keep personal team details out of Git.
+After signing changes, verify both permissions and fresh saved frames; an intact
+timeline only proves access to historical data. After tests, verify the selected
+AI provider and its connection as well.
 Use focused verification appropriate to each change. Identity, storage, helper,
 and cross-cutting renames warrant the desktop suite. Keep upstream analytics,
 hosted services, release signing, and automatic updates disabled in local builds.
