@@ -1,0 +1,400 @@
+{
+  "fileKey": "YFE7QhNjopYeVDfnRnOwMv",
+  "source": "Current local checkout of udaimania/Udaimania, based on upstream Dayflow v2.9.3",
+  "representation": "Editable reconstructions from SwiftUI; synthetic runtime content. Onboarding compared with running app.",
+  "pages": {
+    "00 · Design System / Overview": "0:1",
+    "01 · Design System / Foundations": "17:7",
+    "02 · Design System / Components": "17:6",
+    "03 · Design System / Layout & behavior": "42:2",
+    "10 · Assets / Logos & identity": "42:3",
+    "11 · Assets / Interface icons": "2:3",
+    "12 · Assets / App & website icons": "42:4",
+    "13 · Assets / Artwork & backgrounds": "2:2",
+    "14 · Assets / Characters & motion": "2:4",
+    "15 · Assets / Reference images": "2:5",
+    "20 · States & Layouts / Onboarding": "17:2",
+    "21 · States & Layouts / Timeline": "17:3",
+    "22 · States & Layouts / Workspace": "17:4",
+    "23 · States & Layouts / Settings": "17:5"
+  },
+  "screens": [
+    {
+      "id": "20:8",
+      "name": "01 / Role selection · unselected",
+      "source": "OnboardingPrototypeRoleSelectionStep.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-8"
+    },
+    {
+      "id": "20:43",
+      "name": "02 / Role selection · selected",
+      "source": "OnboardingPrototypeRoleSelectionStep.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-43"
+    },
+    {
+      "id": "20:78",
+      "name": "03 / Role selection · other",
+      "source": "OnboardingPrototypeRoleSelectionStep.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-78"
+    },
+    {
+      "id": "20:117",
+      "name": "04 / Paid AI preference",
+      "source": "OnboardingPrototypePreferencesStep.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-117"
+    },
+    {
+      "id": "20:131",
+      "name": "05 / Provider comparison",
+      "source": "OnboardingPrototypeChooseProviderStep.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-131"
+    },
+    {
+      "id": "20:202",
+      "name": "06 / CLI setup · missing",
+      "source": "ChatCLIDetectionViews.swift + ChatCLITestView.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-202"
+    },
+    {
+      "id": "20:234",
+      "name": "07 / CLI test · success",
+      "source": "ChatCLIDetectionViews.swift + ChatCLITestView.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-234"
+    },
+    {
+      "id": "20:267",
+      "name": "08 / Permissions · not granted",
+      "source": "ScreenRecordingPermissionView.swift + SystemPermissionRow.swift",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=20-267"
+    },
+    {
+      "id": "21:44",
+      "name": "01 / Timeline · Empty",
+      "state": "Empty",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-44"
+    },
+    {
+      "id": "21:150",
+      "name": "02 / Timeline · Populated",
+      "state": "Populated",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-150"
+    },
+    {
+      "id": "21:296",
+      "name": "03 / Timeline · Selected",
+      "state": "Selected",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-296"
+    },
+    {
+      "id": "21:432",
+      "name": "04 / Timeline · Paused",
+      "state": "Paused",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-432"
+    },
+    {
+      "id": "21:581",
+      "name": "05 / Timeline · Generating",
+      "state": "Generating",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-581"
+    },
+    {
+      "id": "21:730",
+      "name": "06 / Timeline · Failure",
+      "state": "Failure",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-730"
+    },
+    {
+      "id": "21:876",
+      "name": "07 / Timeline · Week",
+      "state": "Week",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-876"
+    },
+    {
+      "id": "21:1078",
+      "name": "08 / Timeline · Dark",
+      "state": "Dark",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-1078"
+    },
+    {
+      "id": "21:1224",
+      "name": "09 / Timeline · Categories",
+      "state": "Categories",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-1224"
+    },
+    {
+      "id": "21:1395",
+      "name": "10 / Timeline · Goals",
+      "state": "Goals",
+      "source": "Views/UI/MainView",
+      "w": 1200,
+      "h": 800,
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=21-1395"
+    },
+    {
+      "id": "22:1167",
+      "name": "Chat · Welcome",
+      "source": "ChatView+Content.swift + ChatMessageViews.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1167"
+    },
+    {
+      "id": "22:1254",
+      "name": "Chat · Conversation",
+      "source": "ChatView+Content.swift + ChatMessageViews.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1254"
+    },
+    {
+      "id": "22:1320",
+      "name": "Chat · Thinking",
+      "source": "ChatView+Content.swift + ChatMessageViews.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1320"
+    },
+    {
+      "id": "22:1385",
+      "name": "Chat · Memory",
+      "source": "ChatView+Content.swift + ChatMessageViews.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1385"
+    },
+    {
+      "id": "22:1458",
+      "name": "Daily · locked",
+      "source": "DailyAccessLockedViews.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1458"
+    },
+    {
+      "id": "22:1518",
+      "name": "Daily · workflow and standup",
+      "source": "DailyView.swift + DailyWorkflowGrid.swift + DailyStandupComponents.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1518"
+    },
+    {
+      "id": "22:1612",
+      "name": "Weekly · locked",
+      "source": "WeeklyAccessLockedView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1612"
+    },
+    {
+      "id": "22:1665",
+      "name": "Weekly · overview",
+      "source": "WeeklyView.swift + WeeklyOverviewSection.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1665"
+    },
+    {
+      "id": "22:1812",
+      "name": "Agents · Introduction",
+      "source": "Agents/AgentPlaybackView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1812"
+    },
+    {
+      "id": "22:1889",
+      "name": "Agents · Starting",
+      "source": "Agents/AgentPlaybackView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1889"
+    },
+    {
+      "id": "22:1960",
+      "name": "Agents · Error",
+      "source": "Agents/AgentPlaybackView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-1960"
+    },
+    {
+      "id": "22:2037",
+      "name": "Flow · entry",
+      "source": "Flow/FlowEnterView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-2037"
+    },
+    {
+      "id": "22:2090",
+      "name": "Flow · provider limited",
+      "source": "Flow/FlowEnterView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-2090"
+    },
+    {
+      "id": "22:2142",
+      "name": "Support · chat unavailable",
+      "source": "BugReportView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=22-2142"
+    },
+    {
+      "id": "23:8",
+      "name": "Settings · Account",
+      "source": "Views/UI/Settings/SettingsAccountSection.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-8"
+    },
+    {
+      "id": "23:113",
+      "name": "Settings · Permissions",
+      "source": "Views/UI/Settings/SettingsPermissionsTabView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-113"
+    },
+    {
+      "id": "23:199",
+      "name": "Settings · Storage",
+      "source": "Views/UI/Settings/SettingsStorageTabView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-199"
+    },
+    {
+      "id": "23:318",
+      "name": "Settings · Privacy",
+      "source": "Views/UI/Settings/SettingsRecordingPrivacyTabView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-318"
+    },
+    {
+      "id": "23:436",
+      "name": "Settings · Providers",
+      "source": "Views/UI/Settings/SettingsProvidersTabView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-436"
+    },
+    {
+      "id": "23:558",
+      "name": "Settings · MCP / CLI",
+      "source": "Views/UI/Settings/SettingsAgentAccessTabView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-558"
+    },
+    {
+      "id": "23:679",
+      "name": "Settings · Export",
+      "source": "Views/UI/Settings/SettingsDataTabView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-679"
+    },
+    {
+      "id": "23:766",
+      "name": "Settings · Other",
+      "source": "Views/UI/Settings/SettingsOtherTabView.swift",
+      "url": "https://www.figma.com/design/YFE7QhNjopYeVDfnRnOwMv?node-id=23-766"
+    }
+  ],
+  "components": {
+    "Surface button/Style=Primary, State=Default": "18:26",
+    "Surface button/Style=Primary, State=Disabled": "18:27",
+    "Surface button/Style=Secondary, State=Default": "18:28",
+    "Surface button/Style=Settings, State=Default": "18:29",
+    "Role chip/State=Default": "18:38",
+    "Role chip/State=Selected": "18:39",
+    "Icon/Timeline": "18:46",
+    "Icon/Daily": "18:56",
+    "Icon/Weekly": "18:66",
+    "Icon/Chat": "18:77",
+    "Icon/Flow": "18:81",
+    "Icon/Agents": "18:103",
+    "Icon/Support": "18:106",
+    "Icon/Settings": "18:109",
+    "Sidebar item/State=Default": "18:120",
+    "Sidebar item/State=Selected": "18:121",
+    "Category chip/State=Default": "18:132",
+    "Category chip/State=Selected": "18:133",
+    "Settings toggle/Value=Off": "18:142",
+    "Settings toggle/Value=On": "18:143",
+    "Text field/State=Empty": "18:154",
+    "Text field/State=Filled": "18:155",
+    "Text field/State=Error": "18:156",
+    "Activity card/State=Default": "18:180",
+    "Activity card/State=Selected": "18:181",
+    "Activity card/State=Compact": "18:182",
+    "Activity card/State=Failed": "18:183",
+    "Timeline status/State=Generating": "18:197",
+    "Timeline status/State=Paused": "18:198",
+    "Timeline status/State=Empty": "18:199",
+    "Summary metric/Kind=Focus": "18:213",
+    "Summary metric/Kind=Longest": "18:214",
+    "Summary metric/Kind=Distraction": "18:215",
+    "Settings row/Type=Value": "18:231",
+    "Settings row/Type=Toggle": "18:232",
+    "Welcome suggestion/State=Default": "18:245",
+    "Welcome suggestion/State=Hover": "18:246"
+  },
+  "componentSets": {
+    "Surface button": "18:30",
+    "Role chip": "18:40",
+    "Sidebar item": "18:122",
+    "Category chip": "18:134",
+    "Settings toggle": "18:144",
+    "Text field": "18:157",
+    "Activity card": "18:184",
+    "Timeline status": "18:200",
+    "Summary metric": "18:216",
+    "Settings row": "18:233",
+    "Welcome suggestion": "18:247"
+  },
+  "limitations": [
+    "These are static viewport states, not an exhaustive runtime state machine.",
+    "Complex charts, native permission instructions, and animated Flow scenery are simplified.",
+    "Hosted Flow session and AgentPlayback dashboard interiors are not included.",
+    "SF Pro renders blank in this Figma environment. Three Agents headings use the explicitly named Figtree fallback style; native SF Symbol icons were exported from AppKit.",
+    "Screens use synthetic activity, chat, status, storage and chart data. Account prices are static source-code values.",
+    "Figma edits do not automatically update the SwiftUI app."
+  ],
+  "documentationBoards": {
+    "logos": "43:2",
+    "ui": "4:622",
+    "apps": "44:2",
+    "artwork": "4:208",
+    "foundations": {
+      "colors": "28:2",
+      "typography": "45:291",
+      "geometry": "45:363"
+    },
+    "components": "18:251",
+    "surfaces": "48:2",
+    "guidance": {
+      "layout": "49:2",
+      "behavior": "49:28",
+      "sources": "49:55"
+    },
+    "cover": "4:402"
+  },
+  "componentCounts": {
+    "colors": 31,
+    "textStyles": 13,
+    "spacing": 19,
+    "radii": 9,
+    "controlFamilies": 11,
+    "controlVariants": 29,
+    "navigationMasters": 8,
+    "sourceAssets": 230,
+    "nativeSymbols": 10,
+    "screens": 40
+  }
+}

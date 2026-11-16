@@ -1,0 +1,1826 @@
+{
+  "fileKey": "YFE7QhNjopYeVDfnRnOwMv",
+  "pages": {
+    "00 · Design System / Overview": "0:1",
+    "01 · Design System / Foundations": "17:7",
+    "02 · Design System / Components": "17:6",
+    "03 · Design System / Layout & behavior": "42:2",
+    "10 · Assets / Logos & identity": "42:3",
+    "11 · Assets / Interface icons": "2:3",
+    "12 · Assets / App & website icons": "42:4",
+    "13 · Assets / Artwork & backgrounds": "2:2",
+    "14 · Assets / Characters & motion": "2:4",
+    "15 · Assets / Reference images": "2:5",
+    "20 · States & Layouts / Onboarding": "17:2",
+    "21 · States & Layouts / Timeline": "17:3",
+    "22 · States & Layouts / Workspace": "17:4",
+    "23 · States & Layouts / Settings": "17:5"
+  },
+  "boards": {
+    "logos": "43:2",
+    "ui": "4:622",
+    "apps": "44:2",
+    "artwork": "4:208",
+    "foundations": {
+      "colors": "28:2",
+      "typography": "45:291",
+      "geometry": "45:363"
+    },
+    "components": "18:251",
+    "surfaces": "48:2",
+    "guidance": {
+      "layout": "49:2",
+      "behavior": "49:28",
+      "sources": "49:55"
+    },
+    "cover": "4:402",
+    "navigationMasters": "44:19",
+    "nativeSymbols": "25:114",
+    "characters": "6:13",
+    "references": "7:2"
+  },
+  "counts": {
+    "colors": 31,
+    "textStyles": 13,
+    "spacing": 19,
+    "radii": 9,
+    "controlFamilies": 11,
+    "controlVariants": 29,
+    "navigationMasters": 8,
+    "sourceAssets": 230,
+    "nativeSymbols": 10,
+    "screens": 40
+  },
+  "collections": {
+    "primitives": "VariableCollectionId:17:8",
+    "theme": "VariableCollectionId:17:9",
+    "metrics": "VariableCollectionId:17:10"
+  },
+  "modes": {
+    "Light": "17:1",
+    "Dark": "17:2"
+  },
+  "tokens": [
+    {
+      "id": "VariableID:17:11",
+      "name": "window",
+      "values": {
+        "17:1": {
+          "r": 0.9019607901573181,
+          "g": 0.9137254953384399,
+          "b": 0.9529411792755127,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.13725490868091583,
+          "g": 0.14901961386203766,
+          "b": 0.21960784494876862,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.window"
+      }
+    },
+    {
+      "id": "VariableID:17:14",
+      "name": "panelSolid",
+      "values": {
+        "17:1": {
+          "r": 0.9843137264251709,
+          "g": 0.9647058844566345,
+          "b": 0.95686274766922,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.15294118225574493,
+          "g": 0.16470588743686676,
+          "b": 0.23529411852359772,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.panelSolid"
+      }
+    },
+    {
+      "id": "VariableID:17:17",
+      "name": "textPrimary",
+      "values": {
+        "17:1": {
+          "r": 0.20000000298023224,
+          "g": 0.20000000298023224,
+          "b": 0.20000000298023224,
+          "a": 1
+        },
+        "17:2": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.textPrimary"
+      }
+    },
+    {
+      "id": "VariableID:17:20",
+      "name": "textSecondary",
+      "values": {
+        "17:1": {
+          "r": 0.43921568989753723,
+          "g": 0.43921568989753723,
+          "b": 0.43921568989753723,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.8666666746139526,
+          "g": 0.8666666746139526,
+          "b": 0.8666666746139526,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.textSecondary"
+      }
+    },
+    {
+      "id": "VariableID:17:23",
+      "name": "textMuted",
+      "values": {
+        "17:1": {
+          "r": 0.5921568870544434,
+          "g": 0.5921568870544434,
+          "b": 0.5921568870544434,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.7058823704719543,
+          "g": 0.7058823704719543,
+          "b": 0.7058823704719543,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.textMuted"
+      }
+    },
+    {
+      "id": "VariableID:17:26",
+      "name": "accent",
+      "values": {
+        "17:1": {
+          "r": 0.9529411792755127,
+          "g": 0.5215686559677124,
+          "b": 0.29411765933036804,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.9529411792755127,
+          "g": 0.5215686559677124,
+          "b": 0.29411765933036804,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.accent"
+      }
+    },
+    {
+      "id": "VariableID:17:28",
+      "name": "accentText",
+      "values": {
+        "17:1": {
+          "r": 1,
+          "g": 0.6392157077789307,
+          "b": 0.4627451002597809,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.9686274528503418,
+          "g": 0.4745098054409027,
+          "b": 0.32156863808631897,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.accentText"
+      }
+    },
+    {
+      "id": "VariableID:17:31",
+      "name": "controlFill",
+      "values": {
+        "17:1": {
+          "r": 1,
+          "g": 0.8235294222831726,
+          "b": 0.7254902124404907,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.47058823704719543,
+          "g": 0.3294117748737335,
+          "b": 0.2862745225429535,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.controlFill"
+      }
+    },
+    {
+      "id": "VariableID:17:34",
+      "name": "controlBorder",
+      "values": {
+        "17:1": {
+          "r": 0.9176470637321472,
+          "g": 0.8352941274642944,
+          "b": 0.8039215803146362,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.529411792755127,
+          "g": 0.3607843220233917,
+          "b": 0.27450981736183167,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.controlBorder"
+      }
+    },
+    {
+      "id": "VariableID:17:37",
+      "name": "cardFill",
+      "values": {
+        "17:1": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.22745098173618317,
+          "g": 0.22745098173618317,
+          "b": 0.2980392277240753,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.cardFill"
+      }
+    },
+    {
+      "id": "VariableID:17:39",
+      "name": "cardBorder",
+      "values": {
+        "17:1": {
+          "r": 0.8156862854957581,
+          "g": 0.8156862854957581,
+          "b": 0.8156862854957581,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.6000000238418579,
+          "g": 0.6000000238418579,
+          "b": 0.6000000238418579,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.cardBorder"
+      }
+    },
+    {
+      "id": "VariableID:17:42",
+      "name": "chipFill",
+      "values": {
+        "17:1": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.29019609093666077,
+          "g": 0.29411765933036804,
+          "b": 0.3490196168422699,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.chipFill"
+      }
+    },
+    {
+      "id": "VariableID:17:44",
+      "name": "chipBorder",
+      "values": {
+        "17:1": {
+          "r": 0.8823529481887817,
+          "g": 0.8823529481887817,
+          "b": 0.8823529481887817,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.5333333611488342,
+          "g": 0.5333333611488342,
+          "b": 0.5333333611488342,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.chipBorder"
+      }
+    },
+    {
+      "id": "VariableID:17:47",
+      "name": "primaryButtonFill",
+      "values": {
+        "17:1": {
+          "r": 1,
+          "g": 0.6235294342041016,
+          "b": 0.43529412150382996,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.8196078538894653,
+          "g": 0.3960784375667572,
+          "b": 0.24313725531101227,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.primaryButtonFill"
+      }
+    },
+    {
+      "id": "VariableID:17:50",
+      "name": "primaryButtonBorder",
+      "values": {
+        "17:1": {
+          "r": 0.95686274766922,
+          "g": 0.7843137383460999,
+          "b": 0.6941176652908325,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.9176470637321472,
+          "g": 0.572549045085907,
+          "b": 0.3960784375667572,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.primaryButtonBorder"
+      }
+    },
+    {
+      "id": "VariableID:17:53",
+      "name": "primaryButtonText",
+      "values": {
+        "17:1": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "17:2": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.primaryButtonText"
+      }
+    },
+    {
+      "id": "VariableID:17:54",
+      "name": "secondaryButtonFill",
+      "values": {
+        "17:1": {
+          "r": 0.9882352948188782,
+          "g": 0.9764705896377563,
+          "b": 0.9686274528503418,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.2705882489681244,
+          "g": 0.2823529541492462,
+          "b": 0.3686274588108063,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.secondaryButtonFill"
+      }
+    },
+    {
+      "id": "VariableID:17:57",
+      "name": "secondaryButtonText",
+      "values": {
+        "17:1": {
+          "r": 0.4470588266849518,
+          "g": 0.4470588266849518,
+          "b": 0.4470588266849518,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.8666666746139526,
+          "g": 0.8666666746139526,
+          "b": 0.8666666746139526,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.secondaryButtonText"
+      }
+    },
+    {
+      "id": "VariableID:17:59",
+      "name": "inputFill",
+      "values": {
+        "17:1": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.1882352977991104,
+          "g": 0.19607843458652496,
+          "b": 0.27450981736183167,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.inputFill"
+      }
+    },
+    {
+      "id": "VariableID:17:61",
+      "name": "inputBorder",
+      "values": {
+        "17:1": {
+          "r": 0.8823529481887817,
+          "g": 0.8823529481887817,
+          "b": 0.8823529481887817,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.3607843220233917,
+          "g": 0.364705890417099,
+          "b": 0.4117647111415863,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.inputBorder"
+      }
+    },
+    {
+      "id": "VariableID:17:63",
+      "name": "divider",
+      "values": {
+        "17:1": {
+          "r": 0.9058823585510254,
+          "g": 0.8980392217636108,
+          "b": 0.8901960849761963,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.3450980484485626,
+          "g": 0.3450980484485626,
+          "b": 0.3450980484485626,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.divider"
+      }
+    },
+    {
+      "id": "VariableID:17:66",
+      "name": "focus",
+      "values": {
+        "17:1": {
+          "r": 0.3843137323856354,
+          "g": 0.5490196347236633,
+          "b": 1,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.3490196168422699,
+          "g": 0.6509804129600525,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.focus"
+      }
+    },
+    {
+      "id": "VariableID:17:69",
+      "name": "distraction",
+      "values": {
+        "17:1": {
+          "r": 0.9803921580314636,
+          "g": 0.5098039507865906,
+          "b": 0.5098039507865906,
+          "a": 1
+        },
+        "17:2": {
+          "r": 1,
+          "g": 0.43921568989753723,
+          "b": 0.32549020648002625,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.distraction"
+      }
+    },
+    {
+      "id": "VariableID:17:72",
+      "name": "settingsInk",
+      "values": {
+        "17:1": {
+          "r": 0.250980406999588,
+          "g": 0.16862745583057404,
+          "b": 0,
+          "a": 1
+        },
+        "17:2": {
+          "r": 1,
+          "g": 0.6392157077789307,
+          "b": 0.47058823704719543,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "SettingsStyle.ink"
+      }
+    },
+    {
+      "id": "VariableID:17:75",
+      "name": "settingsText",
+      "values": {
+        "17:1": {
+          "r": 0.09803921729326248,
+          "g": 0.09803921729326248,
+          "b": 0.09803921729326248,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.9215686321258545,
+          "g": 0.9215686321258545,
+          "b": 0.9215686321258545,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "SettingsStyle.text"
+      }
+    },
+    {
+      "id": "VariableID:17:78",
+      "name": "settingsSecondary",
+      "values": {
+        "17:1": {
+          "r": 0.45098039507865906,
+          "g": 0.45098039507865906,
+          "b": 0.45098039507865906,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.6000000238418579,
+          "g": 0.6000000238418579,
+          "b": 0.6000000238418579,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "SettingsStyle.secondary"
+      }
+    },
+    {
+      "id": "VariableID:17:80",
+      "name": "settingsSubtle",
+      "values": {
+        "17:1": {
+          "r": 0.9333333373069763,
+          "g": 0.9215686321258545,
+          "b": 0.9137254953384399,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.21960784494876862,
+          "g": 0.23137255012989044,
+          "b": 0.29411765933036804,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "SettingsStyle.subtle"
+      }
+    },
+    {
+      "id": "VariableID:17:83",
+      "name": "success",
+      "values": {
+        "17:1": {
+          "r": 0.250980406999588,
+          "g": 0.6196078658103943,
+          "b": 0.32156863808631897,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.4000000059604645,
+          "g": 0.7372549176216125,
+          "b": 0.46666666865348816,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.success"
+      }
+    },
+    {
+      "id": "VariableID:17:86",
+      "name": "danger",
+      "values": {
+        "17:1": {
+          "r": 0.7607843279838562,
+          "g": 0.1882352977991104,
+          "b": 0.1882352977991104,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.9372549057006836,
+          "g": 0.46666666865348816,
+          "b": 0.46666666865348816,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.danger"
+      }
+    },
+    {
+      "id": "VariableID:17:89",
+      "name": "onboardingText",
+      "values": {
+        "17:1": {
+          "r": 0.38823530077934265,
+          "g": 0.3019607961177826,
+          "b": 0.25882354378700256,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.38823530077934265,
+          "g": 0.3019607961177826,
+          "b": 0.25882354378700256,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.onboardingText"
+      }
+    },
+    {
+      "id": "VariableID:17:91",
+      "name": "onboardingBorder",
+      "values": {
+        "17:1": {
+          "r": 0.8941176533699036,
+          "g": 0.8274509906768799,
+          "b": 0.7607843279838562,
+          "a": 1
+        },
+        "17:2": {
+          "r": 0.8941176533699036,
+          "g": 0.8274509906768799,
+          "b": 0.7607843279838562,
+          "a": 1
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "iOS": "theme.onboardingBorder"
+      }
+    },
+    {
+      "id": "VariableID:17:93",
+      "name": "spacing/0",
+      "values": {
+        "17:3": 0
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "0"
+      }
+    },
+    {
+      "id": "VariableID:17:94",
+      "name": "spacing/2",
+      "values": {
+        "17:3": 2
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "2"
+      }
+    },
+    {
+      "id": "VariableID:17:95",
+      "name": "spacing/4",
+      "values": {
+        "17:3": 4
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "4"
+      }
+    },
+    {
+      "id": "VariableID:17:96",
+      "name": "spacing/6",
+      "values": {
+        "17:3": 6
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "6"
+      }
+    },
+    {
+      "id": "VariableID:17:97",
+      "name": "spacing/8",
+      "values": {
+        "17:3": 8
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "8"
+      }
+    },
+    {
+      "id": "VariableID:17:98",
+      "name": "spacing/10",
+      "values": {
+        "17:3": 10
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "10"
+      }
+    },
+    {
+      "id": "VariableID:17:99",
+      "name": "spacing/12",
+      "values": {
+        "17:3": 12
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "12"
+      }
+    },
+    {
+      "id": "VariableID:17:100",
+      "name": "spacing/14",
+      "values": {
+        "17:3": 14
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "14"
+      }
+    },
+    {
+      "id": "VariableID:17:101",
+      "name": "spacing/15",
+      "values": {
+        "17:3": 15
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "15"
+      }
+    },
+    {
+      "id": "VariableID:17:102",
+      "name": "spacing/16",
+      "values": {
+        "17:3": 16
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "16"
+      }
+    },
+    {
+      "id": "VariableID:17:103",
+      "name": "spacing/18",
+      "values": {
+        "17:3": 18
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "18"
+      }
+    },
+    {
+      "id": "VariableID:17:104",
+      "name": "spacing/20",
+      "values": {
+        "17:3": 20
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "20"
+      }
+    },
+    {
+      "id": "VariableID:17:105",
+      "name": "spacing/24",
+      "values": {
+        "17:3": 24
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "24"
+      }
+    },
+    {
+      "id": "VariableID:17:106",
+      "name": "spacing/28",
+      "values": {
+        "17:3": 28
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "28"
+      }
+    },
+    {
+      "id": "VariableID:17:107",
+      "name": "spacing/32",
+      "values": {
+        "17:3": 32
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "32"
+      }
+    },
+    {
+      "id": "VariableID:17:108",
+      "name": "spacing/40",
+      "values": {
+        "17:3": 40
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "40"
+      }
+    },
+    {
+      "id": "VariableID:17:109",
+      "name": "spacing/44",
+      "values": {
+        "17:3": 44
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "44"
+      }
+    },
+    {
+      "id": "VariableID:17:110",
+      "name": "spacing/48",
+      "values": {
+        "17:3": 48
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "48"
+      }
+    },
+    {
+      "id": "VariableID:17:111",
+      "name": "spacing/60",
+      "values": {
+        "17:3": 60
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "codeSyntax": {
+        "iOS": "60"
+      }
+    },
+    {
+      "id": "VariableID:17:112",
+      "name": "radius/4",
+      "values": {
+        "17:3": 4
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "4"
+      }
+    },
+    {
+      "id": "VariableID:17:113",
+      "name": "radius/5",
+      "values": {
+        "17:3": 5
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "5"
+      }
+    },
+    {
+      "id": "VariableID:17:114",
+      "name": "radius/8",
+      "values": {
+        "17:3": 8
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "8"
+      }
+    },
+    {
+      "id": "VariableID:17:115",
+      "name": "radius/10",
+      "values": {
+        "17:3": 10
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "10"
+      }
+    },
+    {
+      "id": "VariableID:17:116",
+      "name": "radius/12",
+      "values": {
+        "17:3": 12
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "12"
+      }
+    },
+    {
+      "id": "VariableID:17:117",
+      "name": "radius/14",
+      "values": {
+        "17:3": 14
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "14"
+      }
+    },
+    {
+      "id": "VariableID:17:118",
+      "name": "radius/16",
+      "values": {
+        "17:3": 16
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "16"
+      }
+    },
+    {
+      "id": "VariableID:17:119",
+      "name": "radius/20",
+      "values": {
+        "17:3": 20
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "20"
+      }
+    },
+    {
+      "id": "VariableID:17:120",
+      "name": "radius/200",
+      "values": {
+        "17:3": 200
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "codeSyntax": {
+        "iOS": "200"
+      }
+    }
+  ],
+  "textStyles": [
+    {
+      "id": "S:4c86ca16920b253f72584bfaeb8a9f37114f4752,",
+      "key": "Display/40",
+      "name": "Udaimania/Display/40",
+      "fontName": {
+        "family": "Instrument Serif",
+        "style": "Regular"
+      },
+      "fontSize": 40,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 48
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:a292ab3919ec186c63365016a11e796efd80c77f,",
+      "key": "Display/30",
+      "name": "Udaimania/Display/30",
+      "fontName": {
+        "family": "Instrument Serif",
+        "style": "Regular"
+      },
+      "fontSize": 30,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 36
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:9d2469975d31bb82fa21720bb7ebdebfc3faef8f,",
+      "key": "Display/26",
+      "name": "Udaimania/Display/26",
+      "fontName": {
+        "family": "Instrument Serif",
+        "style": "Regular"
+      },
+      "fontSize": 26,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 32
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:ea03e4e7a6cd124c7463da553345d0583a13f012,",
+      "key": "Display/22",
+      "name": "Udaimania/Display/22",
+      "fontName": {
+        "family": "Instrument Serif",
+        "style": "Regular"
+      },
+      "fontSize": 22,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 28
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:fb822be30cf1b88601991c748d79d62374fdf704,",
+      "key": "Heading/20",
+      "name": "Udaimania/Heading/20",
+      "fontName": {
+        "family": "Figtree",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 20,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 26
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:ab794fd89d2fdf4f849b5219b727f0ac39e4a93e,",
+      "key": "Section/17",
+      "name": "Udaimania/Section/17",
+      "fontName": {
+        "family": "Figtree",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 17,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:126d34b8d633eab4ba25780d13d65110e066ee13,",
+      "key": "Body/16",
+      "name": "Udaimania/Body/16",
+      "fontName": {
+        "family": "Figtree",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 16,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:590315d9d522515573b119a2398715fbc832e46a,",
+      "key": "Body/14",
+      "name": "Udaimania/Body/14",
+      "fontName": {
+        "family": "Figtree",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:174d2c3868a47067a03d08e3bb90c3a378aae65f,",
+      "key": "Body/13",
+      "name": "Udaimania/Body/13",
+      "fontName": {
+        "family": "Figtree",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 18
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:044ca23279857266030b192940d493c8d2d636eb,",
+      "key": "Label/13",
+      "name": "Udaimania/Label/13",
+      "fontName": {
+        "family": "Figtree",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 13,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 18
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:13e57ea0da6315ed7f02a563d852a790fcbda4e4,",
+      "key": "Label/12",
+      "name": "Udaimania/Label/12",
+      "fontName": {
+        "family": "Figtree",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:46f26833635e6286285c41794bc9f3bbfba4145f,",
+      "key": "Meta/11",
+      "name": "Udaimania/Meta/11",
+      "fontName": {
+        "family": "Figtree",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 11,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:6a1795cbcf73bd078d3a5f567bec8c355ae86520,",
+      "key": "System/28",
+      "name": "Udaimania/System heading 28 / Figtree renderer fallback",
+      "fontName": {
+        "family": "Figtree",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 28,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    }
+  ],
+  "componentFamilies": [
+    {
+      "id": "18:30",
+      "name": "Surface button",
+      "variants": [
+        {
+          "id": "18:26",
+          "name": "Style=Primary, State=Default"
+        },
+        {
+          "id": "18:27",
+          "name": "Style=Primary, State=Disabled"
+        },
+        {
+          "id": "18:28",
+          "name": "Style=Secondary, State=Default"
+        },
+        {
+          "id": "18:29",
+          "name": "Style=Settings, State=Default"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Label#18:0",
+          "type": "TEXT"
+        },
+        {
+          "name": "Style",
+          "type": "VARIANT",
+          "options": [
+            "Primary",
+            "Secondary",
+            "Settings"
+          ]
+        },
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Disabled"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:40",
+      "name": "Role chip",
+      "variants": [
+        {
+          "id": "18:38",
+          "name": "State=Default"
+        },
+        {
+          "id": "18:39",
+          "name": "State=Selected"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Label#18:5",
+          "type": "TEXT"
+        },
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Selected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:122",
+      "name": "Sidebar item",
+      "variants": [
+        {
+          "id": "18:120",
+          "name": "State=Default"
+        },
+        {
+          "id": "18:121",
+          "name": "State=Selected"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Label#18:8",
+          "type": "TEXT"
+        },
+        {
+          "name": "Icon#18:11",
+          "type": "INSTANCE_SWAP"
+        },
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Selected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:134",
+      "name": "Category chip",
+      "variants": [
+        {
+          "id": "18:132",
+          "name": "State=Default"
+        },
+        {
+          "id": "18:133",
+          "name": "State=Selected"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Label#18:14",
+          "type": "TEXT"
+        },
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Selected"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:144",
+      "name": "Settings toggle",
+      "variants": [
+        {
+          "id": "18:142",
+          "name": "Value=Off"
+        },
+        {
+          "id": "18:143",
+          "name": "Value=On"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Value",
+          "type": "VARIANT",
+          "options": [
+            "Off",
+            "On"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:157",
+      "name": "Text field",
+      "variants": [
+        {
+          "id": "18:154",
+          "name": "State=Empty"
+        },
+        {
+          "id": "18:155",
+          "name": "State=Filled"
+        },
+        {
+          "id": "18:156",
+          "name": "State=Error"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Value#18:17",
+          "type": "TEXT"
+        },
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Empty",
+            "Filled",
+            "Error"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:184",
+      "name": "Activity card",
+      "variants": [
+        {
+          "id": "18:180",
+          "name": "State=Default"
+        },
+        {
+          "id": "18:181",
+          "name": "State=Selected"
+        },
+        {
+          "id": "18:182",
+          "name": "State=Compact"
+        },
+        {
+          "id": "18:183",
+          "name": "State=Failed"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Title#18:21",
+          "type": "TEXT"
+        },
+        {
+          "name": "Time#18:26",
+          "type": "TEXT"
+        },
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Selected",
+            "Compact",
+            "Failed"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:200",
+      "name": "Timeline status",
+      "variants": [
+        {
+          "id": "18:197",
+          "name": "State=Generating"
+        },
+        {
+          "id": "18:198",
+          "name": "State=Paused"
+        },
+        {
+          "id": "18:199",
+          "name": "State=Empty"
+        }
+      ],
+      "properties": [
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Generating",
+            "Paused",
+            "Empty"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:216",
+      "name": "Summary metric",
+      "variants": [
+        {
+          "id": "18:213",
+          "name": "Kind=Focus"
+        },
+        {
+          "id": "18:214",
+          "name": "Kind=Longest"
+        },
+        {
+          "id": "18:215",
+          "name": "Kind=Distraction"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Kind",
+          "type": "VARIANT",
+          "options": [
+            "Focus",
+            "Longest",
+            "Distraction"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:233",
+      "name": "Settings row",
+      "variants": [
+        {
+          "id": "18:231",
+          "name": "Type=Value"
+        },
+        {
+          "id": "18:232",
+          "name": "Type=Toggle"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Type",
+          "type": "VARIANT",
+          "options": [
+            "Value",
+            "Toggle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "18:247",
+      "name": "Welcome suggestion",
+      "variants": [
+        {
+          "id": "18:245",
+          "name": "State=Default"
+        },
+        {
+          "id": "18:246",
+          "name": "State=Hover"
+        }
+      ],
+      "properties": [
+        {
+          "name": "Prompt#18:31",
+          "type": "TEXT"
+        },
+        {
+          "name": "State",
+          "type": "VARIANT",
+          "options": [
+            "Default",
+            "Hover"
+          ]
+        }
+      ]
+    }
+  ],
+  "navigationMasters": {
+    "Icon/Timeline": "18:46",
+    "Icon/Daily": "18:56",
+    "Icon/Weekly": "18:66",
+    "Icon/Chat": "18:77",
+    "Icon/Flow": "18:81",
+    "Icon/Agents": "18:103",
+    "Icon/Support": "18:106",
+    "Icon/Settings": "18:109"
+  },
+  "coverage": {
+    "palette": "All 31 current Figma semantic colors, in Light and Dark. Native translucent and gradient treatments are explained separately; Figma values are not an exhaustive SwiftUI theme export.",
+    "components": "All 29 current control variants in 11 families, plus 8 connected navigation masters.",
+    "screens": "40 editable source reconstructions, with synthetic runtime content; coverage limits retained in screen-map.json.",
+    "assets": "230 source files with unique SHA-256 digests. 105 editable SVG imports and 125 raster assets. Additional native symbol exports are documented separately."
+  }
+}
